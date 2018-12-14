@@ -1,0 +1,11 @@
+Mon, 19 Nov 2018 21:26:35 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 21:26:35 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 21:26:35 DEBUG    Initializing MQTT layer...
+Mon, 19 Nov 2018 21:26:35 DEBUG    Registering internal event callbacks to MQTT layer...
+Mon, 19 Nov 2018 21:26:35 INFO     MqttCore initialized
+Mon, 19 Nov 2018 21:26:35 INFO     Client id: SDM120_ENERGY_METER
+Mon, 19 Nov 2018 21:26:35 INFO     Protocol version: MQTTv3.1.1
+Mon, 19 Nov 2018 21:26:35 INFO     Authentication type: TLSv1.2 certificate based Mutual Auth.
+Mon, 19 Nov 2018 21:26:35 INFO     Configuring endpoint...
+Mon, 19 Nov 2018 21:26:35 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 21:26:35 ERROR    Failled to load modbus configMODBUS.py<class 'serial.serialutil.SerialException'>

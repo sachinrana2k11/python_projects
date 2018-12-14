@@ -1,0 +1,35 @@
+Tue, 20 Nov 2018 13:43:08 DEBUG    Config file loaded : config.py
+Tue, 20 Nov 2018 13:43:08 DEBUG    Config file loaded : config.py
+Tue, 20 Nov 2018 13:43:08 DEBUG    Initializing MQTT layer...
+Tue, 20 Nov 2018 13:43:08 DEBUG    Registering internal event callbacks to MQTT layer...
+Tue, 20 Nov 2018 13:43:08 INFO     MqttCore initialized
+Tue, 20 Nov 2018 13:43:08 INFO     Client id: SDM120_ENERGY_METER
+Tue, 20 Nov 2018 13:43:08 INFO     Protocol version: MQTTv3.1.1
+Tue, 20 Nov 2018 13:43:08 INFO     Authentication type: TLSv1.2 certificate based Mutual Auth.
+Tue, 20 Nov 2018 13:43:08 INFO     Configuring endpoint...
+Tue, 20 Nov 2018 13:43:08 DEBUG    Config file loaded : config.py
+Tue, 20 Nov 2018 13:43:08 ERROR    Failled to load modbus configMODBUS.py<class 'serial.serialutil.SerialException'>
+Tue, 20 Nov 2018 13:43:08 DEBUG    FEEDING data to databse started-: main.py
+Tue, 20 Nov 2018 13:43:08 ERROR    Failled to fetch data from MODBUSMODBUS.py<class 'AttributeError'>
+Tue, 20 Nov 2018 13:43:08 ERROR    FAILLED TO SAVE DATA IN DATABASE ,DATABASE ERRORhandler.py<class 'peewee.IntegrityError'>
+ Stable connection time: 20.000000 sec
+Tue, 20 Nov 2018 13:43:08 INFO     Configuring offline requests queueing: max queue size: -1
+Tue, 20 Nov 2018 13:43:08 INFO     Configuring offline requests queue draining interval: 0.500000 sec
+Tue, 20 Nov 2018 13:43:08 INFO     Configuring connect/disconnect time out: 10.000000 sec
+Tue, 20 Nov 2018 13:43:08 INFO     Configuring MQTT operation time out: 5.000000 sec
+Tue, 20 Nov 2018 13:43:08 INFO     Performing sync connect...
+Tue, 20 Nov 2018 13:43:08 INFO     Performing async connect...
+Tue, 20 Nov 2018 13:43:08 INFO     Keep-alive: 600.000000 sec
+Tue, 20 Nov 2018 13:43:08 DEBUG    Event consuming thread started
+Tue, 20 Nov 2018 13:43:08 DEBUG    Passing in general notification callbacks to internal client...
+Tue, 20 Nov 2018 13:43:08 DEBUG    Filling in fixed event callbacks: CONNACK, DISCONNECT, MESSAGE
+Tue, 20 Nov 2018 13:43:08 DEBUG    Cleaning up before stopping event consuming
+Tue, 20 Nov 2018 13:43:08 DEBUG    Event queue cleared
+Tue, 20 Nov 2018 13:43:08 DEBUG    Stopping network I/O thread...
+Tue, 20 Nov 2018 13:43:08 DEBUG    Network thread stopped
+Tue, 20 Nov 2018 13:43:08 DEBUG    Event callbacks cleared
+Tue, 20 Nov 2018 13:43:08 DEBUG    Event consuming thread stopped
+Tue, 20 Nov 2018 13:43:08 DEBUG    Waiting for event consumer to completely stop
+Tue, 20 Nov 2018 13:43:08 DEBUG    Exiting dispatching loop...
+Tue, 20 Nov 2018 13:43:08 DEBUG    Event consumer stopped
+Tue, 20 Nov 2018 13:43:08 ERROR    FAILLED TO CONNECT TO THE SERVERhandler.py<class 'socket.gaierror'>

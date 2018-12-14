@@ -1,0 +1,30 @@
+Mon, 19 Nov 2018 21:26:36 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 21:26:36 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 21:26:36 DEBUG    Initializing MQTT layer...
+Mon, 19 Nov 2018 21:26:36 DEBUG    Registering internal event callbacks to MQTT layer...
+Mon, 19 Nov 2018 21:26:36 INFO     MqttCore initialized
+Mon, 19 Nov 2018 21:26:36 INFO     Client id: SDM120_ENERGY_METER
+Mon, 19 Nov 2018 21:26:36 INFO     Protocol version: MQTTv3.1.1
+Mon, 19 Nov 2018 21:26:36 INFO     Authentication type: TLSv1.2 certificate based Mutual Auth.
+Mon, 19 Nov 2018 21:26:36 INFO     Configuring endpoint...
+Mon, 19 Nov 2018 21:26:36 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 21:26:36 ERROR    Failled to load modbus configMODBUS.py<class 'serial.serialutil.SerialException'>
+Mon, 19 Nov 2018 21:26:36 DEBUG    FEEDING data to databse started-: main.py
+Mon, 19 Nov 2018 21:26:36 ERROR    Failled to fetch data from MODBUSMODBUS.py<class 'AttributeError'>
+Mon, 19 Nov 2018 21:26:36 ERROR    Failled to save data in database ,database errorhandler.py<class 'peewee.IntegrityError'>
+ Stable connection time: 20.000000 sec
+Mon, 19 Nov 2018 21:26:36 INFO     Configuring offline requests queueing: max queue size: -1
+Mon, 19 Nov 2018 21:26:36 INFO     Configuring offline requests queue draining interval: 0.500000 sec
+Mon, 19 Nov 2018 21:26:36 INFO     Configuring connect/disconnect time out: 10.000000 sec
+Mon, 19 Nov 2018 21:26:36 INFO     Configuring MQTT operation time out: 5.000000 sec
+Mon, 19 Nov 2018 21:26:36 INFO     Performing sync connect...
+Mon, 19 Nov 2018 21:26:36 INFO     Performing async connect...
+Mon, 19 Nov 2018 21:26:36 INFO     Keep-alive: 600.000000 sec
+Mon, 19 Nov 2018 21:26:36 DEBUG    Event consuming thread started
+Mon, 19 Nov 2018 21:26:36 DEBUG    Passing in general notification callbacks to internal client...
+Mon, 19 Nov 2018 21:26:36 DEBUG    Filling in fixed event callbacks: CONNACK, DISCONNECT, MESSAGE
+Mon, 19 Nov 2018 21:26:37 DEBUG    Starting network I/O thread...
+Mon, 19 Nov 2018 21:26:38 DEBUG    Produced [connack] event
+Mon, 19 Nov 2018 21:26:38 DEBUG    Dispatching [connack] event
+Mon, 19 Nov 2018 21:26:38 DEBUG    No need for recovery
+Mon, 19 Nov 2018 21:26:38 DEBUG    Invoking custom event callback...
