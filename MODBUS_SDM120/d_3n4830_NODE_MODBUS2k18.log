@@ -1,0 +1,187 @@
+2018-07-22 10:33:04,101   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 10:34:21,287   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 10:34:40,242   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 10:42:21,836   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 11:04:59,302   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-22 11:05:11,099   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 11:09:38,310   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-22 11:53:18,938   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 12:10:10,784   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-22 12:10:10,799   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 12:10:12,815   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 12:10:20,878   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-22 12:16:08,391   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:56:03,628   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:57:43,759   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:03,746   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:07,344   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:08,985   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:12,572   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:14,316   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:17,955   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:19,575   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:19,868   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:21,502   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:21,804   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:23,424   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:23,708   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:26,363   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:26,675   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:29,285   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:29,575   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:31,211   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 10:58:34,871   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 10:58:38,507   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:06,945   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:10,626   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:13,254   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:17,904   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:20,558   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:25,201   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:28,833   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:29,133   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:32,786   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:33,097   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:36,751   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:37,061   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:38,738   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:39,062   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:40,664   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:40,813   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:42,476   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:42,637   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:44,266   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:44,422   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:46,141   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:46,293   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:47,924   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:48,080   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:49,687   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:49,762   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:51,368   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:51,517   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:54,181   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:54,345   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:57,016   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:02:57,184   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:02:58,797   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:02,397   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:07,038   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:09,682   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:09,849   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:12,492   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:12,656   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:15,314   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:15,480   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:18,121   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:18,284   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:20,909   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:21,068   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:23,757   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:23,924   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:26,636   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:26,794   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:29,514   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:29,680   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:33,308   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:33,529   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:37,144   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:37,293   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:40,961   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:41,132   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:44,801   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:44,970   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:48,617   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:48,780   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:52,445   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:52,614   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:03:55,260   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:03:55,425   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:02,017   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:02,178   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:04,816   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:04,978   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:07,647   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:07,808   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:10,502   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:10,676   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:13,377   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:13,533   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:16,156   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:16,315   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:18,944   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:19,097   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:21,735   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:21,900   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:24,545   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:24,708   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:27,338   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:27,498   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:30,131   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:30,292   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:32,971   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:33,144   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:36,751   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:36,905   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:39,553   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:39,717   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:42,317   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:42,463   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:45,116   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:45,275   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:47,912   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:48,073   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:50,719   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:50,887   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:53,541   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:04:53,708   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:55,336   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:04:58,974   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:04,658   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:08,324   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:08,494   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:12,117   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:12,283   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:13,935   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:18,562   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:24,200   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:27,803   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:27,959   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:31,624   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:31,786   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:35,410   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:35,572   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:39,224   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:39,392   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:42,032   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:42,195   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:44,819   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:44,978   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:46,627   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:50,282   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:54,961   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:05:57,602   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:05:57,765   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:01,383   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:01,542   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:05,227   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:05,399   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:09,115   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:09,275   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:12,912   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:13,075   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:16,726   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:16,888   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:20,506   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:20,666   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:24,276   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:24,424   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:28,071   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:28,429   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:32,103   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:32,268   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:33,889   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:06:38,507   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:06:44,135   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2018-07-23 11:09:24,291   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18
+2018-07-23 11:10:15,144   ibmiotf.device.Client      INFO    Connected successfully: d:3n4830:NODE:MODBUS2k18

@@ -1,0 +1,14 @@
+{
+  "orgid":"test",
+  "deviceid":"DEMO-DEVICE",
+  "timestamp":"21:00:00",
+  "datestamp":"10-15-2018",
+  "payload":{
+    "data1":5,
+    "data2":6,
+    "data3":7,
+    "data4":8
+  },
+  "applicationname":"Aranova",
+  "messagetype":"application/System"
+}

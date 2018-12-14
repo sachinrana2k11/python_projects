@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a54dbf73-9a77-42f1-8c31-64fb400290e0" name="Default" comment="latest changes">
+      <change afterPath="C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.crt" afterDir="false" />
+      <change afterPath="C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.key" afterDir="false" />
+      <change afterPath="C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud1.pem.key" afterDir="false" />
+      <change afterPath="C:/SMARTGATEWAY/configuration/aws_iot_certificates/root-ca.pem" afterDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/.idea/IBM_IOT_PYTHON.iml" beforeDir="false" afterPath="C:/SMARTGATEWAY/.idea/IBM_IOT_PYTHON.iml" afterDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/Gateway_Sensors/DHT11.py" beforeDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/Gateway_Sensors/MODBUS.py" beforeDir="false" afterPath="C:/SMARTGATEWAY/Gateway_Sensors/MODBUS.py" afterDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/configuration/config.ini" beforeDir="false" afterPath="C:/SMARTGATEWAY/configuration/config.ini" afterDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/configuration/config.py" beforeDir="false" afterPath="C:/SMARTGATEWAY/configuration/config.py" afterDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/database/data.db" beforeDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/logs/2018-07-19/12-19-31.log" beforeDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/logs/2018-07-19/12-20-10.log" beforeDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/logs/2018-07-19/12-27-51.log" beforeDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/logs/2018-07-19/12-31-26.log" beforeDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/logs/2018-07-19/13-02-14.log" beforeDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/logs/2018-07-19/21-37-47.log" beforeDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/main.py" beforeDir="false" afterPath="C:/SMARTGATEWAY/main.py" afterDir="false" />
+      <change beforePath="C:/SMARTGATEWAY/manager/handler.py" beforeDir="false" afterPath="C:/SMARTGATEWAY/manager/handler.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$SET_TIME.coverage" NAME="SET_TIME Coverage Results" MODIFIED="1532434664535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/AUTOMATION_TESTING/database" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$test.coverage" NAME="test Coverage Results" MODIFIED="1532347729266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mongodb" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$data_handler.coverage" NAME="data_handler Coverage Results" MODIFIED="1533023600069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mongodb" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1533023605023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mongodb" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$SET_TIME1.coverage" NAME="SET_TIME1 Coverage Results" MODIFIED="1532434696226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/AUTOMATION_TESTING/database" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$set.coverage" NAME="set Coverage Results" MODIFIED="1532610335913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/database" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$modbus_tcpip__1_.coverage" NAME="modbus_tcpip (1) Coverage Results" MODIFIED="1532607297415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$SET_TIME10.coverage" NAME="SET_TIME10 Coverage Results" MODIFIED="1532434142770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/AUTOMATION_TESTING/database" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1532414660452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mongodb" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$run.coverage" NAME="run Coverage Results" MODIFIED="1532593530740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$models.coverage" NAME="models Coverage Results" MODIFIED="1532322938012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../mongodb" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$modbus_tcpip.coverage" NAME="modbus_tcpip Coverage Results" MODIFIED="1533302841586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MODBUS_SDM120$main.coverage" NAME="main Coverage Results" MODIFIED="1532586456629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="config: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1227110224">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="84" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="34" />
+          <entry key="project.open.time.6" value="41" />
+          <entry key="project.open.time.7" value="24" />
+          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="122" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bat" value="3" />
+          <entry key="crt" value="3" />
+          <entry key="gitattributes" value="2" />
+          <entry key="html" value="8" />
+          <entry key="ini" value="50" />
+          <entry key="json" value="4" />
+          <entry key="key" value="5" />
+          <entry key="log" value="13" />
+          <entry key="pem" value="6" />
+          <entry key="py" value="664" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ANSI Aware" value="1" />
+          <entry key="Bat" value="3" />
+          <entry key="HTML" value="8" />
+          <entry key="Ini" value="49" />
+          <entry key="JSON" value="4" />
+          <entry key="Log" value="12" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="664" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="8" />
+          <entry key="dummy" value="36" />
+          <entry key="html" value="160" />
+          <entry key="ini" value="912" />
+          <entry key="json" value="238" />
+          <entry key="key" value="2" />
+          <entry key="pem" value="1" />
+          <entry key="py" value="12124" />
+          <entry key="txt" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="160" />
+          <entry key="Ini" value="912" />
+          <entry key="JSON" value="238" />
+          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="Python" value="12132" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MODBUS_SDM120" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>python3</find>
+      <find>start1.py</find>
+      <find />
+      <find>routes\\</find>
+      <find>myenv\\Scripts\\</find>
+      <find>Run_smartmonitoring</find>
+      <find>payload_temp</find>
+      <find>cloud1</find>
+      <find>DEVICE_ID</find>
+      <find>`</find>
+      <find>time</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Start_Route-drop-1.py</replace>
+      <replace />
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="C:/SMARTGATEWAY" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-drop-7.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-drop-8.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-drop-9.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-drop-10.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-2.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-3.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-4.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-5.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-6.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-7.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-8.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-9.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-10.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/run.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/config_files/config.ini" />
+        <option value="$PROJECT_DIR$/modbusHTTP.py" />
+        <option value="$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/SmartMonitoring.py" />
+        <option value="$PROJECT_DIR$/../Device_Provisioning/main.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/../loic_project/main.py" />
+        <option value="$PROJECT_DIR$/../AWS_IOT_PYTHON/aws_iot_certificates/root-ca.pem" />
+        <option value="$PROJECT_DIR$/../AWS_IOT_PYTHON/aws_iot_certificates/cloud.pem.crt" />
+        <option value="$PROJECT_DIR$/../AWS_IOT_PYTHON/aws_iot_certificates/cloud.pem.key" />
+        <option value="$PROJECT_DIR$/../AWS_IOT_PYTHON/aws_iot_certificates/cloud1.pem.key" />
+        <option value="$PROJECT_DIR$/../AWS_IOT_PYTHON/database/save_data.py" />
+        <option value="$PROJECT_DIR$/../AWS_IOT_PYTHON/Cloud_files/AWS_MQTT.py" />
+        <option value="C:/SMARTGATEWAY/configuration/config.py" />
+        <option value="$PROJECT_DIR$/../mongodb/test.py" />
+        <option value="$PROJECT_DIR$/../Mongodb_smart_gateway/main.py" />
+        <option value="$PROJECT_DIR$/../Mongodb_smart_gateway/models.py" />
+        <option value="$PROJECT_DIR$/../sms send/main.py" />
+        <option value="C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.crt" />
+        <option value="C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.key" />
+        <option value="C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud1.pem.key" />
+        <option value="C:/SMARTGATEWAY/configuration/aws_iot_certificates/root-ca.pem" />
+        <option value="C:/SMARTGATEWAY/manager/handler.py" />
+        <option value="$PROJECT_DIR$/../AWS_IOT_PYTHON/main.py" />
+        <option value="$PROJECT_DIR$/../AWS_testing_broker/main.py" />
+        <option value="C:/SMARTGATEWAY/main.py" />
+        <option value="C:/SMARTGATEWAY/Gateway_Sensors/MODBUS.py" />
+        <option value="C:/SMARTGATEWAY/configuration/config.ini" />
+        <option value="$PROJECT_DIR$/get_data.py" />
+        <option value="$PROJECT_DIR$/../socket/paho.py" />
+        <option value="$PROJECT_DIR$/../CloudMQTT/main.py" />
+        <option value="$PROJECT_DIR$/modbus_tcpip.py" />
+        <option value="$PROJECT_DIR$/data.json" />
+        <option value="$PROJECT_DIR$/elastic.py" />
+        <option value="$PROJECT_DIR$/../mysql/main.py" />
+        <option value="$PROJECT_DIR$/../flask_app_api/main.py" />
+        <option value="$PROJECT_DIR$/../flask_app_api/time.py" />
+        <option value="$PROJECT_DIR$/appbase_live_meter_feed.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="33" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="mongodb" type="cbb8eebc:String" user="mongodb" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="mongodb" type="cbb8eebc:String" user="mongodb" />
+              <item name="C:\Users\SACHIN RANA\PycharmProjects\mongodb" type="cbb8eebc:String" user="C:\Users\SACHIN RANA\PycharmProjects\mongodb" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="MODBUS_SDM120" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\SMARTGATEWAY" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MODBUS_SDM120" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MODBUS_SDM120" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MODBUS_SDM120" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_app_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;PostgreSQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
+    <property name="last_opened_file_path" value="C:/SMARTGATEWAY" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SMARTGATEWAY\configuration" />
+      <recent name="C:\Users\SACHIN RANA\Desktop\myapp\AUTOMATION_TESTING" />
+      <recent name="C:\Users\SACHIN RANA\Desktop\myapp\AUTOMATION_TESTING\routes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SACHIN RANA\PycharmProjects\flask_app_api" />
+      <recent name="C:\Users\SACHIN RANA\PycharmProjects\AWS_testing_broker" />
+      <recent name="C:\SMARTGATEWAY\configuration" />
+      <recent name="C:\Users\SACHIN RANA\PycharmProjects\AWS_IOT_PYTHON" />
+      <recent name="C:\SMARTGATEWAY" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.appbase_live_meter_feed">
+    <configuration name="appbase_live_meter_feed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MODBUS_SDM120" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appbase_live_meter_feed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="elastic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MODBUS_SDM120" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elastic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../flask_app_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../flask_app_api/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mysql/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../flask_app_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../flask_app_api/time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.appbase_live_meter_feed" />
+      <item itemvalue="Python.elastic" />
+      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.time" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.appbase_live_meter_feed" />
+        <item itemvalue="Python.time" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.elastic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a54dbf73-9a77-42f1-8c31-64fb400290e0" name="Default" comment="" />
+      <created>1532163529491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532163529491</updated>
+    </task>
+    <task id="LOCAL-00001" summary="latest changes">
+      <created>1535177298674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535177298674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49512196" visible="true" weight="0.40922618" />
+      <window_info id="Structure" order="1" sideWeight="0.5040917" side_tool="true" weight="0.19940476" />
+      <window_info id="Favorites" order="2" sideWeight="0.50487804" side_tool="true" weight="0.19940476" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22422259" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4955357" weight="0.28805238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3207856" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" weight="0.32569557" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49925596" weight="0.2111293" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4985119" weight="0.15057284" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50446427" side_tool="true" weight="0.41080198" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Data View" order="4" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="5" weight="0.18154311" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49512196" visible="true" weight="0.22693452" />
+      <window_info id="Structure" order="1" sideWeight="0.5040917" side_tool="true" weight="0.19940476" />
+      <window_info id="Favorites" order="2" sideWeight="0.50487804" side_tool="true" weight="0.19940476" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22422259" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49702382" weight="0.39443535" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3207856" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" weight="0.32569557" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49925596" weight="0.2111293" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4985119" weight="0.15057284" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5029762" side_tool="true" weight="0.39443535" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Data View" order="4" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="5" weight="0.18154311" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="latest changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <line>54</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <line>14</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <line>6</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../sms send/sms2mobile.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../sms send/sms2mobile.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/Start_Route-pick-1.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Device_Provisioning/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/logs/logmanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mongodb/aws_dynamodb.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mongodb/data_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mongodb/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-681">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mongodb/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mongodb/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../loic_project/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/web/myapp/manage.py" />
+    <entry file="file://$PROJECT_DIR$/../flask_test/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.crt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/configuration/aws_iot_certificates/cloud1.pem.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AWS_IOT_PYTHON/aws_iot_certificates/root-ca.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/configuration/aws_iot_certificates/root-ca.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AWS_IOT_PYTHON/Cloud_files/AWS_MQTT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AWS_IOT_PYTHON/database/save_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AWS_testing_broker/aws_iot_certificates/root-ca.pem">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AWS_testing_broker/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_data.py" />
+    <entry file="file://C:/SMARTGATEWAY/manager/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CloudMQTT/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/configuration/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/configuration/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AWS_IOT_PYTHON/Config_file/config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/database/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/SmartMonitoring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="63" column="165" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/myapp/AUTOMATION_TESTING/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="21" column="42" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elastic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AWS_IOT_PYTHON/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/SMARTGATEWAY/Gateway_Sensors/MODBUS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../socket/mydevice.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../socket/client.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../socket/Camera2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../socket/Camera1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../socket/way2sms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../socket/server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../socket/paho.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="45" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms send/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sms send/sms2mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../New_project_IIOT/model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../New_project_IIOT/DataHandler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../New_project_IIOT/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modbusHTTP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modbus_tcpip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flask_app_api/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flask_app_api/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#19#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbase_live_meter_feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
