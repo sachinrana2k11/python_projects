@@ -1,3 +1,5 @@
+import sys
+
 import minimalmodbus
 import time
 import uuid
@@ -17,20 +19,20 @@ rs485.debug = False
 rs485.mode = minimalmodbus.MODE_RTU
 print(rs485)'''
 while 1:
-    Volts = random.randint(200,220)#rs485.read_float(0, functioncode=4, numberOfRegisters=2)
-    Current = random.randint(200,220)#rs485.read_float(6, functioncode=4, numberOfRegisters=2)
-    Active_Power = random.randint(200,220)#rs485.read_float(12, functioncode=4, numberOfRegisters=2)
-    Apparent_Power = random.randint(200,220)#rs485.read_float(18, functioncode=4, numberOfRegisters=2)
-    Reactive_Power = random.randint(200,220)#rs485.read_float(24, functioncode=4, numberOfRegisters=2)
-    Power_Factor = random.randint(200,220)# rs485.read_float(30, functioncode=4, numberOfRegisters=2)
-    Phase_Angle = random.randint(200,220)#rs485.read_float(36, functioncode=4, numberOfRegisters=2)
-    Frequency = random.randint(200,220)#rs485.read_float(70, functioncode=4, numberOfRegisters=2)
-    Import_Active_Energy = random.randint(200,220)#rs485.read_float(72, functioncode=4, numberOfRegisters=2)
-    Export_Active_Energy = random.randint(200,220)#rs485.read_float(74, functioncode=4, numberOfRegisters=2)
-    Import_Reactive_Energy = random.randint(200,220)#rs485.read_float(76, functioncode=4, numberOfRegisters=2)
-    Export_Reactive_Energy = random.randint(200,220)#rs485.read_float(78, functioncode=4, numberOfRegisters=2)
-    Total_Active_Energy = random.randint(200,220)#rs485.read_float(342, functioncode=4, numberOfRegisters=2)
-    Total_Reactive_Energy = random.randint(200,220)#rs485.read_float(344, functioncode=4, numberOfRegisters=2)
+    Volts = random.randint(100,220)#rs485.read_float(0, functioncode=4, numberOfRegisters=2)
+    Current = random.randint(1,10)#rs485.read_float(6, functioncode=4, numberOfRegisters=2)
+    Active_Power = random.randint(100,1000)#rs485.read_float(12, functioncode=4, numberOfRegisters=2)
+    Apparent_Power = random.randint(100,500)#rs485.read_float(18, functioncode=4, numberOfRegisters=2)
+    Reactive_Power = random.randint(100,500)#rs485.read_float(24, functioncode=4, numberOfRegisters=2)
+    Power_Factor = random.randint(0,1)# rs485.read_float(30, functioncode=4, numberOfRegisters=2)
+    Phase_Angle = random.randint(0,180)#rs485.read_float(36, functioncode=4, numberOfRegisters=2)
+    Frequency = random.randint(50,60)#rs485.read_float(70, functioncode=4, numberOfRegisters=2)
+    Import_Active_Energy = random.randint(500,1000)#rs485.read_float(72, functioncode=4, numberOfRegisters=2)
+    Export_Active_Energy = random.randint(500,2000)#rs485.read_float(74, functioncode=4, numberOfRegisters=2)
+    Import_Reactive_Energy = random.randint(200,500)#rs485.read_float(76, functioncode=4, numberOfRegisters=2)
+    Export_Reactive_Energy = random.randint(100,400)#rs485.read_float(78, functioncode=4, numberOfRegisters=2)
+    Total_Active_Energy = random.randint(5000,8000)#rs485.read_float(342, functioncode=4, numberOfRegisters=2)
+    Total_Reactive_Energy = random.randint(3000,5000)#rs485.read_float(344, functioncode=4, numberOfRegisters=2)
     DATETIME_STAMP = str(datetime.datetime.now().utcnow().isoformat())
 
     # Array of data objects
@@ -127,8 +129,14 @@ while 1:
         }
 
     # Bulk request including the index method and all data objects
-    response = requests.request("POST", url, data=payload, headers=headers)
-    print(payload)
-    parsed = json.loads(response.text)
-    print(json.dumps(parsed, indent=4, sort_keys=True))
+    try:
+        response = requests.request("POST", url, data=payload, headers=headers)
+        print(payload)
+        parsed = json.loads(response.text)
+        print(json.dumps(parsed, indent=4, sort_keys=True))
+
+    except:
+        e = sys.exc_info()[0]
+        print("try next time " + str(e))
+        continue
     time.sleep(1)
