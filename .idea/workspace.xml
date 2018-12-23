@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c786a7-a6d4-481e-9a9d-dc9c670dba8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/First_Django/.idea/First_Django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_Django/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_Django/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_Django/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_Django/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_Django/dimaag/handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_Django/webapp/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_Django/webapp/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_Django/webapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_App/chinook.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO_Sensor_Fetch/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py" beforeDir="false" afterPath="$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" beforeDir="false" afterPath="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_App/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_App/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +18,8 @@
     <SUITE FILE_PATH="coverage/python_projects$app.coverage" NAME="app Coverage Results" MODIFIED="1544795245581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_App" />
     <SUITE FILE_PATH="coverage/python_projects$manage.coverage" NAME="manage Coverage Results" MODIFIED="1544867099530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/django_demo" />
     <SUITE FILE_PATH="coverage/python_projects$elastic.coverage" NAME="elastic Coverage Results" MODIFIED="1544864944757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MODBUS_SDM120" />
-    <SUITE FILE_PATH="coverage/python_projects$main.coverage" NAME="main Coverage Results" MODIFIED="1544774687713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS_testing_broker" />
+    <SUITE FILE_PATH="coverage/python_projects$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1545133968677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/python_projects$main.coverage" NAME="main Coverage Results" MODIFIED="1545574035262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_Sensor_Fetch" />
     <SUITE FILE_PATH="coverage/python_projects$appbase_live_meter_feed.coverage" NAME="appbase_live_meter_feed Coverage Results" MODIFIED="1545133529281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MODBUS_SDM120" />
     <SUITE FILE_PATH="coverage/python_projects$views.coverage" NAME="views Coverage Results" MODIFIED="1545044636425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/First_Django/webapp" />
   </component>
@@ -53,10 +43,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py">
+        <entry file="file://$PROJECT_DIR$/IO_Sensor_Fetch/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="254">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -69,8 +71,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -95,6 +97,8 @@
         <option value="$PROJECT_DIR$/First_Django/webapp/views.py" />
         <option value="$PROJECT_DIR$/First_Django/webapp/templates/index.html" />
         <option value="$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py" />
+        <option value="$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py" />
+        <option value="$PROJECT_DIR$/IO_Sensor_Fetch/main.py" />
       </list>
     </option>
   </component>
@@ -112,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,13 +127,17 @@
             <path>
               <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="MODBUS_SDM120" type="462c0819:PsiDirectoryNode" />
+              <item name="IO_Sensor_Fetch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="SMARTGATEWAY" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,27 +166,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.appbase_live_meter_feed">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_projects" />
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Test: " type="DjangoTestsConfigurationType" temporary="true">
+      <module name="First_Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_App" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_App/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
     <configuration name="appbase_live_meter_feed" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -202,20 +209,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="elastic" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_projects" />
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IO_Sensor_Fetch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MODBUS_SDM120" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IO_Sensor_Fetch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IO_Sensor_Fetch/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,6 +281,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="First_Django.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -293,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Django tests.Test: " />
         <item itemvalue="Python.appbase_live_meter_feed" />
         <item itemvalue="Python.views" />
         <item itemvalue="Python.manage" />
-        <item itemvalue="Python.elastic" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +328,14 @@
       <workItem from="1545042503105" duration="2406000" />
       <workItem from="1545051404793" duration="1983000" />
       <workItem from="1545053757740" duration="6351000" />
-      <workItem from="1545133333732" duration="284000" />
+      <workItem from="1545133333732" duration="573000" />
+      <workItem from="1545330221604" duration="895000" />
+      <workItem from="1545376595585" duration="2411000" />
+      <workItem from="1545480764386" duration="459000" />
+      <workItem from="1545481248470" duration="2131000" />
+      <workItem from="1545566447243" duration="206000" />
+      <workItem from="1545566916343" duration="3590000" />
+      <workItem from="1545570902804" duration="3735000" />
     </task>
     <task id="LOCAL-00001" summary="AWS broker get data tester added">
       <created>1544774557745</created>
@@ -329,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544774557745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AWS broker get data tester added">
+      <created>1545133646917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545133646917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34083000" />
+    <option name="totallyTimeSpent" value="47799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,18 +370,18 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24130106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3878887" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54664487" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.19312602" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.23731588" />
@@ -374,6 +396,46 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AWS broker get data tester added" />
@@ -396,16 +458,6 @@
     <entry file="file://$PROJECT_DIR$/flask_App/chinook.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-201791" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_App/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="e#19#60#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS_testing_broker/main.py">
@@ -449,33 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/manager/handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1447" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/database/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1189980555/time.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -491,32 +520,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/First_Django/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/First_Django/webapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/database/data.db">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/First_Django/dimaag/handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -552,12 +561,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.crt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_App/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#19#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/logs/2018-12-05/21-03-18.log">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="413">
+          <caret line="168" column="25" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/configuration/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/database/data.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/database/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/Gateway_Sensors/MODBUS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/manager/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/First_Django/dimaag/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/First_Django/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" selection-start-line="36" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3/Lib/multiprocessing/queues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IO_Sensor_Fetch/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
