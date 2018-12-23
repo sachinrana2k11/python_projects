@@ -7,7 +7,6 @@ import demjson
 import datetime
 from termcolor import colored
 from Data_read import IO_data
-import serial
 #------------------------------configurations-------------------------------------------
 url = "https://ohiRuOFiH:8c6861f1-d1dc-4322-8819-c072f5bfe9b1@scalr.api.appbase.io/arnowa/pointvalues/_bulk"
 data_send_time  = 0.1 # sec
@@ -16,7 +15,7 @@ data_fetch_time = 1 #sec
 Baud_Rate = 9600
 PORT = 'COM1'
 #------------------------------configurations-------------------------------------------
-io_data = IO_data(PORT,Baud_Rate)
+#io_data = IO_data(PORT,Baud_Rate)
 
 def get_data():
     temp_msg = "ID:1:TS:23143:TF:60.79:RH:44.00"
@@ -110,7 +109,7 @@ def task_senddata(two,q):
 if __name__ == '__main__':
     one = 1 #dummy arguments
     two = 2 #dummy arguments
-    q = multiprocessing.Queue()
+    q = multiprocessing.Queue(100)
     p1 = multiprocessing.Process(target=task_getdata,args=(one,q)) # 1st process
     p2 = multiprocessing.Process(target=task_senddata,args=(two,q)) # 2nd process
     p1.start()
