@@ -10,6 +10,7 @@ import os
 class database():
     def __init__(self):
         try:
+            self.records_list = []
             self.LOG = log()
             self.config = confi()
             self.localdb = pw.SqliteDatabase(self.config.DATABASE_PATH)
@@ -81,16 +82,70 @@ class database():
 
     def send_AWS(self,topic_path):
         try:
-            for data in md.devicedata().select().order_by(md.devicedata.datestamp.desc() and md.devicedata.timestamp.asc()).where(md.devicedata.synced == 0).limit(self.config.BATCH_SIZE):
-                self.myMQTTClient.publish(topic_path, json.dumps(model_to_dict(data)),self.config.QOS)
-                print("PUBLISHING  DATA TO AWS-:" + str(model_to_dict(data)))
-                msg_id = data.id
-                print(msg_id)
-                self.update_synced(msg_id)
+            records = self.check_data_base()
+            if records < 25:
+                for data in md.devicedata().select().order_by(md.devicedata.datestamp.desc() and md.devicedata.timestamp.asc()).where(md.devicedata.synced == 0).limit(5):
+                    try:
+                        self.myMQTTClient.publish(topic_path, json.dumps(model_to_dict(data)), self.config.QOS)
+                        print("PUBLISHING  DATA TO AWS-:" + str(model_to_dict(data)))
+                        msg_id = data.id
+                        print(msg_id)
+                        self.update_synced(msg_id)
+                    except:
+                        e = sys.exc_info()[0]
+                        self.LOG.ERROR("FAILLED TO SEND DATA TO THE SERVER" + str(os.path.basename(__file__)) + str(e))  # error logs
+                        print("EXCEPTION IN SENDING DATA TO AWS SERVER - " + str(e))
+                        continue
+            if records >25 and records <50:
+                for data in md.devicedata().select().order_by(md.devicedata.datestamp.desc() and md.devicedata.timestamp.asc()).where(md.devicedata.synced == 0).limit(15):
+                    try:
+                        self.myMQTTClient.publish(topic_path, json.dumps(model_to_dict(data)), self.config.QOS)
+                        print("PUBLISHING  DATA TO AWS-:" + str(model_to_dict(data)))
+                        msg_id = data.id
+                        print(msg_id)
+                        self.update_synced(msg_id)
+                    except:
+                        e = sys.exc_info()[0]
+                        self.LOG.ERROR("FAILLED TO SEND DATA TO THE SERVER" + str(os.path.basename(__file__)) + str(e))  # error logs
+                        print("EXCEPTION IN SENDING DATA TO AWS SERVER - " + str(e))
+                        continue
+            if records >50 and records <75:
+                for data in md.devicedata().select().order_by(md.devicedata.datestamp.desc() and md.devicedata.timestamp.asc()).where(md.devicedata.synced == 0).limit(25):
+                    try:
+                        self.myMQTTClient.publish(topic_path, json.dumps(model_to_dict(data)), self.config.QOS)
+                        print("PUBLISHING  DATA TO AWS-:" + str(model_to_dict(data)))
+                        msg_id = data.id
+                        print(msg_id)
+                        self.update_synced(msg_id)
+                    except:
+                        e = sys.exc_info()[0]
+                        self.LOG.ERROR("FAILLED TO SEND DATA TO THE SERVER" + str(os.path.basename(__file__)) + str(e))  # error logs
+                        print("EXCEPTION IN SENDING DATA TO AWS SERVER - " + str(e))
+                        continue
+            if records >75:
+                for data in md.devicedata().select().order_by(md.devicedata.datestamp.desc() and md.devicedata.timestamp.asc()).where(md.devicedata.synced == 0).limit(50):
+                    try:
+                        self.myMQTTClient.publish(topic_path, json.dumps(model_to_dict(data)), self.config.QOS)
+                        print("PUBLISHING  DATA TO AWS-:" + str(model_to_dict(data)))
+                        msg_id = data.id
+                        print(msg_id)
+                        self.update_synced(msg_id)
+                    except:
+                        e = sys.exc_info()[0]
+                        self.LOG.ERROR("FAILLED TO SEND DATA TO THE SERVER" + str(os.path.basename(__file__)) + str(e))  # error logs
+                        print("EXCEPTION IN SENDING DATA TO AWS SERVER - " + str(e))
+                        continue
+
+
         except:
                 e = sys.exc_info()[0]
                 self.LOG.ERROR("FAILLED TO SEND DATA TO AWS IOT" + str(os.path.basename(__file__)) + str(e))  # error logs
                 print("EXCEPTION IN SENDING  DATA TO AWS - " + str(e))
                 pass
 
+
+    def check_data_base(self):
+        for data in md.devicedata().select().order_by(md.devicedata.datestamp.desc() and md.devicedata.timestamp.asc()).where(md.devicedata.synced == 0):
+            self.records_list.append(data)
+        return len(self.records_list)
 
