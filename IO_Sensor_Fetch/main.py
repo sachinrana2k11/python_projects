@@ -1,51 +1,53 @@
 import multiprocessing
+import re
 import sys
 import time
 import requests
 import json
 import demjson
 import datetime
+import serial
 from termcolor import colored
 from Data_read import IO_data
 #------------------------------configurations-------------------------------------------
 url = "https://ohiRuOFiH:8c6861f1-d1dc-4322-8819-c072f5bfe9b1@scalr.api.appbase.io/arnowa/pointvalues/_bulk"
-data_send_time  = 0.1 # sec
-data_fetch_time = 1 #sec
+data_send_time  = 0.5 # sec
+data_fetch_time = 0.1 #sec
 #-------------------------------UART config---------------------------------------------
-Baud_Rate = 9600
-PORT = 'COM1'
+Baud_Rate = 115200
+PORT = 'COM19'
 #------------------------------configurations-------------------------------------------
 #io_data = IO_data(PORT,Baud_Rate)
 
 def get_data():
-    temp_msg = "ID:1:TS:23143:TF:60.79:RH:44.00"
-    msg = temp_msg.encode()
-    #msg = io_data #uncomment for real device uart
-   # print(msg)
-    return msg
+     #temp_msg = "ID:1:TS:23143:TF:60.79:RH:44.00"
+     ser = serial.Serial("COM19", 115200)
+     temp_msg = ser.readline().decode()
+     msg = temp_msg.strip()
+     temp5 = re.sub(r'\r\n', '', msg)
+     return temp5
+
 
 def decode_data(temp_data):
-    temp1 = temp_data.decode()
+    temp1 = temp_data
     temp2 = temp1.split(":")
     #print(temp2)
-    data_temp = {
-        "NodeID":int(temp2[1]),
-        "Temprature":float(temp2[5]),
-        "Humidity":float(temp2[7])
-    }
+    data_temp = dict(zip(temp2[0::2],temp2[1::2]))
     return data_temp
 
 def task_getdata(one,q):
     while 1:
         data = get_data()
         final_data = decode_data(data)
-        if q.full() == False:
-            q.put(final_data)
-            print("Task-1, Data inserted in queue is :- "+ str(final_data))
-            time.sleep(data_fetch_time)
-        elif q.full() == True:
-            print("Task-1, Queue is full..wait for data pipe to free")
-            time.sleep(data_fetch_time)
+        #print(len(final_data))
+        if len(final_data) > 3:
+            if q.full() == False:
+                q.put(final_data)
+                print("Task-1, Data inserted in queue is :- "+ str(final_data))
+                time.sleep(data_fetch_time)
+            elif q.full() == True:
+                print("Task-1, Queue is full..wait for data pipe to free")
+                time.sleep(data_fetch_time)
 
 
 def task_senddata(two,q):
@@ -58,16 +60,18 @@ def task_senddata(two,q):
             dataArray = [
                   {
                   #"id": str(uuid.uuid4()),
-                  "NodeID": queue_data['NodeID'],
+                  #"NodeID": queue_data['ID'],
+                  "meter": "IO123",
                   "name": "Temprature",
-                  "value": queue_data['Temprature'],
+                  "value": float(queue_data['TF']),
                   "timestamp": DATETIME_STAMP
                   },
                   {
                   #"id": str(uuid.uuid4()),
-                   "NodeID": queue_data['NodeID'],
+                  #"NodeID": queue_data['ID'],
+                  "meter": "IO123",
                   "name": "Humidity",
-                  "value": queue_data['Humidity'],
+                  "value": float(queue_data['RH']),
                   "timestamp": DATETIME_STAMP
                   }
             ]
@@ -91,9 +95,9 @@ def task_senddata(two,q):
             # Bulk request including the index method and all data objects
             try:
                 response = requests.request("POST", url, data=payload, headers=headers)
-                #print(payload)
+                print(payload)
                 parsed = json.loads(response.text)
-                #print(json.dumps(parsed, indent=4, sort_keys=True))
+                print(json.dumps(parsed, indent=4, sort_keys=True))
                 print(colored("\tTask-2, Data sends sucessfully-:","green"))
                 time.sleep(data_send_time)
 
@@ -104,7 +108,7 @@ def task_senddata(two,q):
                 time.sleep(data_send_time)
         elif q.empty() == True:
             print(colored("\tTask-2, Queue is empty wait for data to be feed","red"))
-            time.sleep(data_send_time+1)
+            time.sleep(data_send_time+0.5)
 
 if __name__ == '__main__':
     one = 1 #dummy arguments

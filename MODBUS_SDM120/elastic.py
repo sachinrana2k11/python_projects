@@ -1,10 +1,27 @@
-from elasticsearch import Elasticsearch
+# Python program to illustrate the concept 
+# of threading 
+import threading
+import os
+import time
+lock = threading.Lock()
 
-#es = Elasticsearch(hosts="https://search-sachinrana2k18-vglslnc4s2vn26pd7gqq7i45pe.us-east-1.es.amazonaws.com")
-es = Elasticsearch(hosts="https://ohiRuOFiH:8c6861f1-d1dc-4322-8819-c072f5bfe9b1@scalr.api.appbase.io")
+def task1():
+    while 1:
+        #lock.acquire()
+        print("Task-1")
+        #time.sleep(1)
+        #lock.release()
+        time.sleep(5)
 
 
-res = es.search(index="arnowa", doc_type="pointvalues", body={"query": {"match": {"name": "Current"}}})
-print("%d documents found" % res['hits']['total'])
-for doc in res['hits']['hits']:
-    print(doc)
+def task2():
+    while 1:
+        print("\t\tTask-2")
+        time.sleep(2)
+
+
+if __name__ == "__main__":
+    t1 = threading.Thread(target=task1, name='t1')
+    t2 = threading.Thread(target=task2, name='t2')
+    t1.start()
+    t2.start()

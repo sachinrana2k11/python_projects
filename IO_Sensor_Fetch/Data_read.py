@@ -1,4 +1,5 @@
 import sys
+import time
 
 from serial import Serial
 from termcolor import colored
@@ -9,9 +10,8 @@ class IO_data:
         self.port = Port
         self.baud = Baud_Rate
         self.ser = Serial(
-            port=self.port,  # Replace ttyS0 with ttyAM0 for Pi1,Pi2,Pi0
-            baudrate=self.baud,
-            timeout=1
+            port = self.port,  # Replace ttyS0 with ttyAM0 for Pi1,Pi2,Pi0
+            baudrate = self.baud,
         )
 
     def read_data(self):
@@ -23,4 +23,3 @@ class IO_data:
             e = sys.exc_info()[0]
             print(colored("\tTask-1,cannot fetch data from UART ERROR" + str(e), "red"))
             pass
-
