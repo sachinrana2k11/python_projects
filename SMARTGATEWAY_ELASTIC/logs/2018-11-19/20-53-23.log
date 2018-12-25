@@ -1,0 +1,10 @@
+Mon, 19 Nov 2018 20:53:23 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 20:53:23 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 20:53:23 DEBUG    Initializing MQTT layer...
+Mon, 19 Nov 2018 20:53:23 DEBUG    Registering internal event callbacks to MQTT layer...
+Mon, 19 Nov 2018 20:53:23 INFO     MqttCore initialized
+Mon, 19 Nov 2018 20:53:23 INFO     Client id: SDM120_ENERGY_METER
+Mon, 19 Nov 2018 20:53:23 INFO     Protocol version: MQTTv3.1.1
+Mon, 19 Nov 2018 20:53:23 INFO     Authentication type: TLSv1.2 certificate based Mutual Auth.
+Mon, 19 Nov 2018 20:53:23 INFO     Configuring endpoint...
+Mon, 19 Nov 2018 20:53:23 DEBUG    MODBUS Config loadedMODBUS.py

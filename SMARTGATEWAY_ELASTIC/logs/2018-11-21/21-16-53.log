@@ -1,0 +1,25 @@
+Wed, 21 Nov 2018 21:16:53 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 21:16:53 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 21:16:53 DEBUG    Initializing MQTT layer...
+Wed, 21 Nov 2018 21:16:53 DEBUG    Registering internal event callbacks to MQTT layer...
+Wed, 21 Nov 2018 21:16:53 INFO     MqttCore initialized
+Wed, 21 Nov 2018 21:16:53 INFO     Client id: SDM120_ENERGY_METER
+Wed, 21 Nov 2018 21:16:53 INFO     Protocol version: MQTTv3.1.1
+Wed, 21 Nov 2018 21:16:53 INFO     Authentication type: TLSv1.2 certificate based Mutual Auth.
+Wed, 21 Nov 2018 21:16:53 INFO     Configuring endpoint...
+Wed, 21 Nov 2018 21:16:53 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 21:16:53 DEBUG    MODBUS Config loadedMODBUS.py
+Wed, 21 Nov 2018 21:16:53 DEBUG    FEEDING data to databse startWed, 21 Nov 2018 21:16:53 INFO     Configuring reconnect back off timing...
+Wed, 21 Nov 2018 21:16:53 INFO     Base quiet time: 1.000000 sec
+Wed, 21 Nov 2018 21:16:53 INFO     Max quiet time: 32.000000 sec
+Wed, 21 Nov 2018 21:16:53 INFO     Stable connection time: 20.000000 sec
+Wed, 21 Nov 2018 21:16:53 INFO     Configuring offline requests queueing: max queue size: -1
+Wed, 21 Nov 2018 21:16:53 INFO     Configuring offline requests queue draining interval: 0.500000 sec
+Wed, 21 Nov 2018 21:16:53 INFO     Configuring connect/disconnect time out: 10.000000 sec
+Wed, 21 Nov 2018 21:16:53 INFO     Configuring MQTT operation time out: 5.000000 sec
+Wed, 21 Nov 2018 21:16:53 INFO     Performing sync connect...
+Wed, 21 Nov 2018 21:16:53 INFO     Performing async connect...
+Wed, 21 Nov 2018 21:16:53 INFO     Keep-alive: 600.000000 sec
+Wed, 21 Nov 2018 21:16:53 DEBUG    Event consuming thread started
+Wed, 21 Nov 2018 21:16:53 DEBUG    Passing in general notification callbacks to internal client...
+Wed, 21 Nov 2018 21:16:53 DEBUG    Filling in fixed event callbacks: CONNACK, DISCONNECT, MESSAGE

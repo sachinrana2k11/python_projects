@@ -1,0 +1,997 @@
+Mon, 19 Nov 2018 21:19:49 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 21:19:49 DEBUG    Config file loaded : config.py
+Mon, 19 Nov 2018 21:19:49 DEBUG    Initializing MQTT layer...
+Mon, 19 Nov 2018 21:19:49 DEBUG    Registering internal event callbacks to MQTT layer...
+Mon, 19 Nov 2018 21:19:49 INFO     MqttCore initialized
+Mon, 19 Nov 2018 21:19:49 INFO     Client id: SDM120_ENERGY_METER
+Mon, 19 Nov 2018 21:19:49 INFO     Protocol version: MQTTv3.1.1
+Mon, 19 Nov 2018 21:19:49 INFO     Authentication type: TLSv1.2 certificate based Mutual Auth.
+Mon, 19 Nov 2018 21:19:49 INFO     Configuring endpoint...
+Mon, 19 Nov 2018 21:19:49 DEBUG    MODBUS Config loadedMODBUS.py
+Mon, 19 Nov 2018 21:19:49 INFO     Configuring certificates...
+Mon, 19 Nov 2018 21:19:49 INFO     Configuring reconnect back off timing...
+Mon, 19 Nov 2018 21:19:49 INFO     Base quiet time: 1.000000 sec
+Mon, 19 Nov 2018 21:19:49 INFO     Max quiet time: 32.000000 sec
+Mon, 19 Nov 2018 21:19:49 INFO     Stable connection time: 20.000000 sec
+Mon, 19 Nov 2018 21:19:49 INFO     Configuring offline requests queueing: max queue size: -1
+Mon, 19 Nov 2018 21:19:49 INFO     Configuring offline requests queue draining interval: 0.500000 sec
+Mon, 19 Nov 2018 21:19:49 INFO     Configuring connect/disconnect time out: 10.000000 sec
+Mon, 19 Nov 2018 21:19:49 INFO     Configuring MQTT operation time out: 5.000000 sec
+Mon, 19 Nov 2018 21:19:49 INFO     Performing sync connect...
+Mon, 19 Nov 2018 21:19:49 INFO     Performing async connect...
+Mon, 19 Nov 2018 21:19:49 INFO     Keep-alive: 600.000000 sec
+Mon, 19 Nov 2018 21:19:49 DEBUG    Event consuming thread started
+Mon, 19 Nov 2018 21:19:49 DEBUG    Passing in general notification callbacks to internal client...
+Mon, 19 Nov 2018 21:19:49 DEBUG    Filling in fixed event callbacks: CONNACK, DISCONNECT, MESSAGE
+Mon, 19 Nov 2018 21:19:53 DEBUG    Starting network I/O thread...
+Mon, 19 Nov 2018 21:19:53 DEBUG    Produced [connack] event
+Mon, 19 Nov 2018 21:19:53 DEBUG    Dispatching [connack] event
+Mon, 19 Nov 2018 21:19:53 DEBUG    No need for recovery
+Mon, 19 Nov 2018 21:19:53 DEBUG    Invoking custom event callback...
+Mon, 19 Nov 2018 21:19:53 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:53 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:53 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:53 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:53 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:53 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:53 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:53 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:53 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:53 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:53 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:53 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:53 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:53 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:53 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:58 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:58 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:58 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:58 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:58 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:58 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:58 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:58 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:58 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:58 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:58 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:58 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:19:58 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:19:58 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:19:58 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:03 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:03 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:03 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:03 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:03 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:03 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:03 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:03 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:03 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:03 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:03 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:03 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:03 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:03 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:03 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:08 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:08 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:08 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:08 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:08 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:08 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:08 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:08 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:08 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:08 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:08 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:08 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:08 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:08 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:08 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:13 DEBUG    stableConnection: Resetting the backoff time to: 1 sec.
+Mon, 19 Nov 2018 21:20:13 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:13 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:13 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:13 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:13 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:13 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:13 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:13 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:13 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:13 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:13 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:13 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:13 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:13 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:13 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:18 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:18 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:18 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:18 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:18 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:18 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:18 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:18 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:18 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:18 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:18 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:18 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:18 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:18 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:18 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:23 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:23 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:23 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:23 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:23 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:28 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:28 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:28 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:29 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:29 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:29 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:29 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:29 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:29 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:29 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:29 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:34 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:34 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:34 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:34 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:34 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:34 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:34 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:34 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:34 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:34 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:39 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:39 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:39 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:39 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:39 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:39 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:39 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:39 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:39 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:20:39 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:20:41 DEBUG    Produced [disconnect] event
+Mon, 19 Nov 2018 21:20:41 DEBUG    backOff: current backoff time is: 1 sec.
+Mon, 19 Nov 2018 21:20:41 DEBUG    Dispatching [disconnect] event
+Mon, 19 Nov 2018 21:20:41 DEBUG    Invoking custom event callback...
+Mon, 19 Nov 2018 21:20:42 DEBUG    backOff: current backoff time is: 2 sec.
+Mon, 19 Nov 2018 21:20:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFEF0>
+Mon, 19 Nov 2018 21:20:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFE80>
+Mon, 19 Nov 2018 21:20:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFCF8>
+Mon, 19 Nov 2018 21:20:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFC18>
+Mon, 19 Nov 2018 21:20:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA0B8>
+Mon, 19 Nov 2018 21:20:44 DEBUG    backOff: current backoff time is: 4 sec.
+Mon, 19 Nov 2018 21:20:48 DEBUG    backOff: current backoff time is: 8 sec.
+Mon, 19 Nov 2018 21:20:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFF60>
+Mon, 19 Nov 2018 21:20:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFF98>
+Mon, 19 Nov 2018 21:20:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA198>
+Mon, 19 Nov 2018 21:20:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA390>
+Mon, 19 Nov 2018 21:20:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA128>
+Mon, 19 Nov 2018 21:20:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFFD0>
+Mon, 19 Nov 2018 21:20:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFE48>
+Mon, 19 Nov 2018 21:20:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA160>
+Mon, 19 Nov 2018 21:20:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA4A8>
+Mon, 19 Nov 2018 21:20:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA208>
+Mon, 19 Nov 2018 21:20:56 DEBUG    backOff: current backoff time is: 16 sec.
+Mon, 19 Nov 2018 21:20:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CF5F8>
+Mon, 19 Nov 2018 21:20:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA2B0>
+Mon, 19 Nov 2018 21:20:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA2E8>
+Mon, 19 Nov 2018 21:20:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA5C0>
+Mon, 19 Nov 2018 21:20:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:20:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:20:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA470>
+Mon, 19 Nov 2018 21:21:04 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:04 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:04 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFBE0>
+Mon, 19 Nov 2018 21:21:04 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:04 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:04 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA588>
+Mon, 19 Nov 2018 21:21:04 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:04 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:04 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA0F0>
+Mon, 19 Nov 2018 21:21:04 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:04 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:04 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA6D8>
+Mon, 19 Nov 2018 21:21:04 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:04 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:04 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA240>
+Mon, 19 Nov 2018 21:21:09 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:09 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:09 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68CFC50>
+Mon, 19 Nov 2018 21:21:09 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:09 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:09 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA630>
+Mon, 19 Nov 2018 21:21:09 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:09 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:09 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA550>
+Mon, 19 Nov 2018 21:21:09 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:09 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:09 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA7F0>
+Mon, 19 Nov 2018 21:21:09 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:09 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:09 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA400>
+Mon, 19 Nov 2018 21:21:12 DEBUG    backOff: current backoff time is: 32 sec.
+Mon, 19 Nov 2018 21:21:14 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:14 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:14 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA710>
+Mon, 19 Nov 2018 21:21:14 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:14 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:14 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA358>
+Mon, 19 Nov 2018 21:21:14 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:14 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:14 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA748>
+Mon, 19 Nov 2018 21:21:14 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:14 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:14 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA908>
+Mon, 19 Nov 2018 21:21:14 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:14 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:14 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA320>
+Mon, 19 Nov 2018 21:21:19 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:19 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:19 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA3C8>
+Mon, 19 Nov 2018 21:21:19 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:19 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:19 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA1D0>
+Mon, 19 Nov 2018 21:21:19 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:19 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:19 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA860>
+Mon, 19 Nov 2018 21:21:19 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:19 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:19 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAA20>
+Mon, 19 Nov 2018 21:21:19 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:19 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:19 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA080>
+Mon, 19 Nov 2018 21:21:24 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:24 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:24 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA4E0>
+Mon, 19 Nov 2018 21:21:24 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:24 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:24 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA278>
+Mon, 19 Nov 2018 21:21:24 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:24 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:24 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA978>
+Mon, 19 Nov 2018 21:21:24 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:24 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:24 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAB38>
+Mon, 19 Nov 2018 21:21:24 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:24 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:24 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA048>
+Mon, 19 Nov 2018 21:21:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:29 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:29 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA8D0>
+Mon, 19 Nov 2018 21:21:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:29 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:29 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA5F8>
+Mon, 19 Nov 2018 21:21:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:29 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:29 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAA90>
+Mon, 19 Nov 2018 21:21:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:29 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:29 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAC50>
+Mon, 19 Nov 2018 21:21:29 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:29 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:29 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA668>
+Mon, 19 Nov 2018 21:21:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:34 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:34 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA9E8>
+Mon, 19 Nov 2018 21:21:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:34 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:34 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA828>
+Mon, 19 Nov 2018 21:21:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:34 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:34 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FABA8>
+Mon, 19 Nov 2018 21:21:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:34 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:34 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAD68>
+Mon, 19 Nov 2018 21:21:34 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:34 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:34 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA518>
+Mon, 19 Nov 2018 21:21:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:39 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:39 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAB00>
+Mon, 19 Nov 2018 21:21:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:39 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:39 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA940>
+Mon, 19 Nov 2018 21:21:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:39 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:39 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FACC0>
+Mon, 19 Nov 2018 21:21:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:39 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:39 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAE80>
+Mon, 19 Nov 2018 21:21:39 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:39 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:39 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA438>
+Mon, 19 Nov 2018 21:21:44 DEBUG    backOff: current backoff time is: 32 sec.
+Mon, 19 Nov 2018 21:21:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAC18>
+Mon, 19 Nov 2018 21:21:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAA58>
+Mon, 19 Nov 2018 21:21:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FADD8>
+Mon, 19 Nov 2018 21:21:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAF98>
+Mon, 19 Nov 2018 21:21:44 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:44 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:44 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA7B8>
+Mon, 19 Nov 2018 21:21:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA9B0>
+Mon, 19 Nov 2018 21:21:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FACF8>
+Mon, 19 Nov 2018 21:21:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAB70>
+Mon, 19 Nov 2018 21:21:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E60ABD30>
+Mon, 19 Nov 2018 21:21:49 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:49 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:49 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAEF0>
+Mon, 19 Nov 2018 21:21:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAAC8>
+Mon, 19 Nov 2018 21:21:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA780>
+Mon, 19 Nov 2018 21:21:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAE10>
+Mon, 19 Nov 2018 21:21:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAF28>
+Mon, 19 Nov 2018 21:21:54 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:54 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:54 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA898>
+Mon, 19 Nov 2018 21:21:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAC88>
+Mon, 19 Nov 2018 21:21:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAFD0>
+Mon, 19 Nov 2018 21:21:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAEB8>
+Mon, 19 Nov 2018 21:21:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906358>
+Mon, 19 Nov 2018 21:21:59 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:21:59 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:21:59 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69060F0>
+Mon, 19 Nov 2018 21:22:05 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:05 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:05 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FADA0>
+Mon, 19 Nov 2018 21:22:05 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:05 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:05 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FA6A0>
+Mon, 19 Nov 2018 21:22:05 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:05 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:05 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906080>
+Mon, 19 Nov 2018 21:22:05 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:05 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:05 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906438>
+Mon, 19 Nov 2018 21:22:05 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:05 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:05 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906240>
+Mon, 19 Nov 2018 21:22:10 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:10 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:10 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAD30>
+Mon, 19 Nov 2018 21:22:10 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:10 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:10 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906128>
+Mon, 19 Nov 2018 21:22:10 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:10 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:10 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69062B0>
+Mon, 19 Nov 2018 21:22:10 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:10 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:10 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906550>
+Mon, 19 Nov 2018 21:22:10 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:10 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:10 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906400>
+Mon, 19 Nov 2018 21:22:15 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:15 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:15 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FAE48>
+Mon, 19 Nov 2018 21:22:15 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:15 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:15 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906518>
+Mon, 19 Nov 2018 21:22:15 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:15 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:15 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906320>
+Mon, 19 Nov 2018 21:22:15 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:15 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:15 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906668>
+Mon, 19 Nov 2018 21:22:15 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:15 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:15 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906160>
+Mon, 19 Nov 2018 21:22:16 DEBUG    backOff: current backoff time is: 32 sec.
+Mon, 19 Nov 2018 21:22:20 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:20 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:20 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E68FABE0>
+Mon, 19 Nov 2018 21:22:20 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:20 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:20 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69065C0>
+Mon, 19 Nov 2018 21:22:20 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:20 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:20 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69064E0>
+Mon, 19 Nov 2018 21:22:20 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:20 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:20 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906780>
+Mon, 19 Nov 2018 21:22:20 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:20 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:20 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906390>
+Mon, 19 Nov 2018 21:22:25 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:25 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:25 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69066A0>
+Mon, 19 Nov 2018 21:22:25 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:25 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:25 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69060B8>
+Mon, 19 Nov 2018 21:22:25 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:25 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:25 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69066D8>
+Mon, 19 Nov 2018 21:22:25 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:25 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:25 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906898>
+Mon, 19 Nov 2018 21:22:25 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:25 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:25 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69062E8>
+Mon, 19 Nov 2018 21:22:30 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:30 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:30 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906208>
+Mon, 19 Nov 2018 21:22:30 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:30 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:30 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906048>
+Mon, 19 Nov 2018 21:22:30 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:30 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:30 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69067F0>
+Mon, 19 Nov 2018 21:22:30 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:30 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:30 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69069B0>
+Mon, 19 Nov 2018 21:22:30 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:30 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:30 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69061D0>
+Mon, 19 Nov 2018 21:22:35 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:35 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:35 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906470>
+Mon, 19 Nov 2018 21:22:35 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:35 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:35 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906198>
+Mon, 19 Nov 2018 21:22:35 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:35 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:35 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906908>
+Mon, 19 Nov 2018 21:22:35 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:35 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:35 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906AC8>
+Mon, 19 Nov 2018 21:22:35 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:35 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:35 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906278>
+Mon, 19 Nov 2018 21:22:40 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:40 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:40 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906860>
+Mon, 19 Nov 2018 21:22:40 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:40 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:40 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906588>
+Mon, 19 Nov 2018 21:22:40 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:40 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:40 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906A20>
+Mon, 19 Nov 2018 21:22:40 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:40 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:40 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906BE0>
+Mon, 19 Nov 2018 21:22:40 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:40 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:40 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69065F8>
+Mon, 19 Nov 2018 21:22:45 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:45 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:45 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906978>
+Mon, 19 Nov 2018 21:22:45 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:45 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:45 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69067B8>
+Mon, 19 Nov 2018 21:22:45 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:45 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:45 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906B38>
+Mon, 19 Nov 2018 21:22:45 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:45 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:45 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906CF8>
+Mon, 19 Nov 2018 21:22:45 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:45 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:45 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69064A8>
+Mon, 19 Nov 2018 21:22:48 DEBUG    backOff: current backoff time is: 32 sec.
+Mon, 19 Nov 2018 21:22:50 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:50 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:50 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906A90>
+Mon, 19 Nov 2018 21:22:50 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:50 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:50 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69068D0>
+Mon, 19 Nov 2018 21:22:50 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:50 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:50 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906C50>
+Mon, 19 Nov 2018 21:22:50 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:50 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:50 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906E10>
+Mon, 19 Nov 2018 21:22:50 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:50 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:50 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69063C8>
+Mon, 19 Nov 2018 21:22:55 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:55 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:55 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906BA8>
+Mon, 19 Nov 2018 21:22:55 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:55 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:55 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E69069E8>
+Mon, 19 Nov 2018 21:22:55 INFO     Performing sync publish...
+Mon, 19 Nov 2018 21:22:55 INFO     Offline request detected!
+Mon, 19 Nov 2018 21:22:55 DEBUG    append: Add new element: <AWSIoTPythonSDK.core.protocol.internal.requests.QueueableRequest object at 0x000001E0E6906E48>
+Mon, 19 Nov 2018 21:23:22 DEBUG    Produced [connack] event
+Mon, 19 Nov 2018 21:23:22 DEBUG    Dispatching [connack] event
+Mon, 19 Nov 2018 21:23:22 DEBUG    Has recovery job
+Mon, 19 Nov 2018 21:23:22 DEBUG    Start draining
+Mon, 19 Nov 2018 21:23:22 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:22 DEBUG    Invoking custom event callback...
+Mon, 19 Nov 2018 21:23:22 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:22 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:23 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:23 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:24 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:24 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:24 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:24 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:24 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:24 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:25 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:25 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:25 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:25 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:25 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:25 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:26 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:26 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:26 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:26 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:26 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:26 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:27 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:27 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:27 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:27 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:27 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:27 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:28 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:28 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:28 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:28 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:28 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:28 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:29 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:29 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:29 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:29 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:29 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:29 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:30 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:30 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:30 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:30 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:30 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:30 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:31 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:31 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:31 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:31 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:31 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:31 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:32 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:32 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:32 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:32 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:32 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:32 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:33 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:33 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:33 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:33 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:33 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:33 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:34 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:34 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:34 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:34 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:34 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:34 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:35 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:35 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:35 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:35 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:35 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:35 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:36 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:36 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:36 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:36 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:36 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:36 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:37 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:37 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:37 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:37 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:37 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:37 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:38 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:38 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:38 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:38 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:38 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:38 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:39 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:39 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:39 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:39 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:39 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:39 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:40 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:40 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:40 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:40 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:40 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:40 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:41 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:41 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:41 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:41 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:41 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:41 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:42 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:42 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:42 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:42 DEBUG    stableConnection: Resetting the backoff time to: 1 sec.
+Mon, 19 Nov 2018 21:23:42 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:42 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:42 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:43 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:43 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:43 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:43 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:43 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:43 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:44 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:44 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:44 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:44 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:44 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:44 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:45 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:45 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:45 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:45 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:45 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:45 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:46 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:46 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:46 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:46 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:46 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:46 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:47 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:47 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:47 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:47 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:47 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:47 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:48 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:48 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:48 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:48 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:48 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:48 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:49 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:49 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:49 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:49 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:49 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:49 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:50 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:50 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:50 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:50 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:50 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:50 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:51 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:51 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:51 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:51 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:51 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:51 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:52 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:52 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:52 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:52 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:52 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:52 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:53 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:53 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:53 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:53 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:53 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:53 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:54 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:54 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:54 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:54 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:54 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:54 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:55 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:55 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:55 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:55 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:55 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:55 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:56 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:56 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:56 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:56 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:56 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:56 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:57 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:57 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:57 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:57 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:57 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:57 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:58 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:58 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:58 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:58 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:58 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:58 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:59 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:59 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:59 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:23:59 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:23:59 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:23:59 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:00 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:00 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:00 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:00 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:00 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:00 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:01 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:01 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:01 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:01 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:01 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:01 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:02 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:02 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:02 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:02 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:02 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:02 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:03 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:03 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:03 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:03 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:03 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:03 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:04 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:04 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:04 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:04 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:04 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:04 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:05 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:05 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:05 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:05 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:05 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:05 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:06 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:06 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:06 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:06 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:06 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:06 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:07 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:07 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:07 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:07 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:07 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:07 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:08 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:08 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:08 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:08 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:08 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:08 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:09 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:09 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:09 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:09 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:09 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:09 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:10 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:10 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:10 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:10 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:10 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:10 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:11 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:11 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:11 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:11 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:11 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:11 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:12 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:12 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:12 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:12 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:12 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:12 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:13 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:13 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:13 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:13 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:13 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:13 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:14 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:14 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:14 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:14 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:14 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:14 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:15 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:15 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:15 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:15 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:15 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:15 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:16 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:16 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:16 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:16 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:16 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:16 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:17 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:17 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:17 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:17 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:17 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:17 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:18 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:18 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:18 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:18 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:18 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:18 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:19 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:19 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:19 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:19 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:19 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:19 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:20 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:20 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:20 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:20 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:20 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:20 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:21 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:21 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:21 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:21 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:21 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:21 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:22 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:22 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:22 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:22 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:22 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:22 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:23 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:23 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:23 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:23 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:24 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:24 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:24 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:24 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:24 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:24 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:25 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:25 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:25 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:25 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:25 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:25 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:26 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:26 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:26 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:26 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:26 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:26 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:27 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:27 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:27 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:27 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:27 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:27 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:28 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:28 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:28 DEBUG    Dispatching [puback] event
+Mon, 19 Nov 2018 21:24:28 DEBUG    Processed offline publish request
+Mon, 19 Nov 2018 21:24:28 DEBUG    Produced [puback] event
+Mon, 19 Nov 2018 21:24:28 DEBUG    Dispatching [puback] event

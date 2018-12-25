@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/First_Django/.idea/First_Django.iml" filepath="$PROJECT_DIR$/First_Django/.idea/First_Django.iml" />
       <module fileurl="file://$PROJECT_DIR$/IO_Sensor_Fetch/.idea/IO_Sensor_Fetch.iml" filepath="$PROJECT_DIR$/IO_Sensor_Fetch/.idea/IO_Sensor_Fetch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/SMARTGATEWAY_ELASTIC.iml" filepath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/SMARTGATEWAY_ELASTIC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python_projects.iml" filepath="$PROJECT_DIR$/.idea/python_projects.iml" />
     </modules>
   </component>

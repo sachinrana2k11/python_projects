@@ -1,0 +1,46 @@
+Wed, 21 Nov 2018 22:13:57 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 22:13:57 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 22:13:57 DEBUG    Initializing MQTT layer...
+Wed, 21 Nov 2018 22:13:57 DEBUG    Registering internal event callbacks to MQTT layer...
+Wed, 21 Nov 2018 22:13:57 INFO     MqttCore initialized
+Wed, 21 Nov 2018 22:13:57 INFO     Client id: SDM120_ENERGY_METER
+Wed, 21 Nov 2018 22:13:57 INFO     Protocol version: MQTTv3.1.1
+Wed, 21 Nov 2018 22:13:57 INFO     Authentication type: TLSv1.2 certificate based Mutual Auth.
+Wed, 21 Nov 2018 22:13:57 INFO     Configuring endpoint...
+Wed, 21 Nov 2018 22:13:57 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 22:13:57 DEBUG    MODBUS Config loadedMODBUS.py
+Wed, 21 Nov 2018 22:13:57 DEBUG    FEEDING data to databse started-: main.py
+18 22:13:57 INFO     Configuring reconnect back off timing...
+Wed, 21 Nov 2018 22:13:57 INFO     Base quiet time: 1.000000 sec
+Wed, 21 Nov 2018 22:13:57 INFO     Max quiet time: 32.000000 sec
+Wed, 21 Nov 2018 22:13:57 INFO     Stable connection time: 20.000000 sec
+Wed, 21 Nov 2018 22:13:57 INFO     Configuring offline requests queueing: max queue size: -1
+Wed, 21 Nov 2018 22:13:57 INFO     Configuring offline requests queue draining interval: 0.500000 sec
+Wed, 21 Nov 2018 22:13:57 INFO     Configuring connect/disconnect time out: 10.000000 sec
+Wed, 21 Nov 2018 22:13:57 INFO     Configuring MQTT operation time out: 5.000000 sec
+Wed, 21 Nov 2018 22:13:57 INFO     Performing sync connect...
+Wed, 21 Nov 2018 22:13:57 INFO     Performing async connect...
+Wed, 21 Nov 2018 22:13:57 INFO     Keep-alive: 600.000000 sec
+Wed, 21 Nov 2018 22:13:57 DEBUG    Event consuming thread started
+Wed, 21 Nov 2018 22:13:57 DEBUG    Passing in general notification callbacks to internal client...
+Wed, 21 Nov 2018 22:13:57 DEBUG    Filling in fixed event callbacks: CONNACK, DISCONNECT, MESSAGE
+Wed, 21 Nov 2018 22:13:59 DEBUG    Starting network I/O thread...
+Wed, 21 Nov 2018 22:13:59 DEBUG    Produced [connack] event
+Wed, 21 Nov 2018 22:13:59 DEBUG    Dispatching [connack] event
+Wed, 21 Nov 2018 22:13:59 DEBUG    No need for recovery
+Wed, 21 Nov 2018 22:13:59 DEBUG    Invoking custom event callback...
+Wed, 21 Nov 2018 22:14:00 INFO     Performing sync publish...
+Wed, 21 Nov 2018 22:14:00 DEBUG    Produced [puback] event
+Wed, 21 Nov 2018 22:14:00 DEBUG    Dispatching [puback] event
+Wed, 21 Nov 2018 22:14:00 INFO     Performing sync publish...
+Wed, 21 Nov 2018 22:14:00 DEBUG    Produced [puback] event
+Wed, 21 Nov 2018 22:14:00 DEBUG    Dispatching [puback] event
+Wed, 21 Nov 2018 22:14:02 INFO     Performing sync publish...
+Wed, 21 Nov 2018 22:14:02 DEBUG    Produced [puback] event
+Wed, 21 Nov 2018 22:14:02 DEBUG    Dispatching [puback] event
+Wed, 21 Nov 2018 22:14:04 INFO     Performing sync publish...
+Wed, 21 Nov 2018 22:14:04 DEBUG    Produced [puback] event
+Wed, 21 Nov 2018 22:14:04 DEBUG    Dispatching [puback] event
+Wed, 21 Nov 2018 22:14:06 INFO     Performing sync publish...
+Wed, 21 Nov 2018 22:14:06 DEBUG    Produced [puback] event
+Wed, 21 Nov 2018 22:14:06 DEBUG    Dispatching [puback] event

@@ -1,0 +1,35 @@
+Wed, 21 Nov 2018 21:06:06 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 21:06:06 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 21:06:06 DEBUG    Initializing MQTT layer...
+Wed, 21 Nov 2018 21:06:06 DEBUG    Registering internal event callbacks to MQTT layer...
+Wed, 21 Nov 2018 21:06:06 INFO     MqttCore initialized
+Wed, 21 Nov 2018 21:06:06 INFO     Client id: SDM120_ENERGY_METER
+Wed, 21 Nov 2018 21:06:06 INFO     Protocol version: MQTTv3.1.1
+Wed, 21 Nov 2018 21:06:06 INFO     Authentication type: TLSv1.2 certificate based Mutual Auth.
+Wed, 21 Nov 2018 21:06:06 INFO     Configuring endpoint...
+Wed, 21 Nov 2018 21:06:06 DEBUG    Config file loaded : config.py
+Wed, 21 Nov 2018 21:06:06 DEBUG    MODBUS Config loadedMODBUS.py
+Wed, 21 Nov 2018 21:06:06 DEBUG    FEEDING data to databse started-: main.py
+Wed, 21 Nov 2018 21:06:06 ERROR    Failled to fetch data from MODBUSMODBUS.py<class 'AttributeError'>
+Wed, 21 Nov 2018 21:06:06 ERROR    FAILLED TO SAVE DATA IN DATABASE ,DATABASE ERRORhandler.py<class 'peewee.IntegrityError'>
+ Stable connection time: 20.000000 sec
+Wed, 21 Nov 2018 21:06:06 INFO     Configuring offline requests queueing: max queue size: -1
+Wed, 21 Nov 2018 21:06:06 INFO     Configuring offline requests queue draining interval: 0.500000 sec
+Wed, 21 Nov 2018 21:06:06 INFO     Configuring connect/disconnect time out: 10.000000 sec
+Wed, 21 Nov 2018 21:06:06 INFO     Configuring MQTT operation time out: 5.000000 sec
+Wed, 21 Nov 2018 21:06:06 INFO     Performing sync connect...
+Wed, 21 Nov 2018 21:06:06 INFO     Performing async connect...
+Wed, 21 Nov 2018 21:06:06 INFO     Keep-alive: 600.000000 sec
+Wed, 21 Nov 2018 21:06:06 DEBUG    Event consuming thread started
+Wed, 21 Nov 2018 21:06:06 DEBUG    Passing in general notification callbacks to internal client...
+Wed, 21 Nov 2018 21:06:06 DEBUG    Filling in fixed event callbacks: CONNACK, DISCONNECT, MESSAGE
+Wed, 21 Nov 2018 21:06:06 DEBUG    Cleaning up before stopping event consuming
+Wed, 21 Nov 2018 21:06:06 DEBUG    Event queue cleared
+Wed, 21 Nov 2018 21:06:06 DEBUG    Stopping network I/O thread...
+Wed, 21 Nov 2018 21:06:06 DEBUG    Network thread stopped
+Wed, 21 Nov 2018 21:06:06 DEBUG    Event callbacks cleared
+Wed, 21 Nov 2018 21:06:06 DEBUG    Event consuming thread stopped
+Wed, 21 Nov 2018 21:06:06 DEBUG    Waiting for event consumer to completely stop
+Wed, 21 Nov 2018 21:06:06 DEBUG    Exiting dispatching loop...
+Wed, 21 Nov 2018 21:06:06 DEBUG    Event consumer stopped
+Wed, 21 Nov 2018 21:06:06 ERROR    FAILLED TO CONNECT TO THE SERVERhandler.py<class 'socket.gaierror'>

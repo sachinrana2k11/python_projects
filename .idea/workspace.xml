@@ -2,10 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c786a7-a6d4-481e-9a9d-dc9c670dba8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/SMARTGATEWAY_ELASTIC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/IO_SENSOR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/MODBUS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/configuration/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/configuration/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/database/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-36-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-50-53.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-51-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-51-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-52-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-52-03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-52-37.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-53-04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-53-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-53-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/20-57-59.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-02-03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-06-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-06-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-14-30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-14-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-15-40.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-15-41.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-19-48.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-19-49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-26-35.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-19/21-26-36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/13-43-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/17-54-27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/17-59-05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/17-59-06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-08-37.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-16-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-24-33.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-24-34.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-36-43.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-44-47.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-44-48.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-46-40.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-51-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-51-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-55-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-20/18-55-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/10-45-04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/10-46-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/10-46-32.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/20-55-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/20-55-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-01-59.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-06-05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-06-06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-06-30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-06-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-08-35.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-08-36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-16-53.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/21-24-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-08-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-08-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-09-05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-12-56.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-13-57.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-14-50.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-14-51.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-17-42.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-18-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-18-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-25-54.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/22-26-42.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/23-10-38.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/23-10-39.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/23-11-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/23-13-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-11-21/23-13-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-12-05/21-03-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/2018-12-05/21-03-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/logs/logmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager/handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO_Sensor_Fetch/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/IO_Sensor_Fetch/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" beforeDir="false" afterPath="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/Gateway_Sensors/MODBUS.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/Gateway_Sensors/MODBUS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.crt" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/configuration/aws_iot_certificates/cloud.pem.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.key" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/configuration/aws_iot_certificates/cloud.pem.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/configuration/aws_iot_certificates/cloud1.pem.key" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/configuration/aws_iot_certificates/cloud1.pem.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/configuration/aws_iot_certificates/root-ca.pem" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/configuration/aws_iot_certificates/root-ca.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/configuration/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/configuration/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/configuration/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/configuration/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/database/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/database/data.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-36-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-36-10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-50-53.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-50-53.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-51-01.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-51-01.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-51-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-51-02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-52-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-52-02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-52-03.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-52-03.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-52-37.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-52-37.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-53-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-53-04.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-53-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-53-23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-53-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-53-24.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/20-57-59.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/20-57-59.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-02-03.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-02-03.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-06-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-06-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-06-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-06-15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-14-30.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-14-30.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-14-31.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-14-31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-15-40.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-15-40.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-15-41.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-15-41.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-19-48.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-19-48.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-19-49.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-19-49.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-26-35.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-26-35.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-19/21-26-36.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-19/21-26-36.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/13-43-08.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/13-43-08.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/17-54-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/17-54-27.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/17-59-05.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/17-59-05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/17-59-06.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/17-59-06.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-08-37.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-08-37.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-16-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-16-19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-24-33.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-24-33.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-24-34.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-24-34.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-36-43.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-36-43.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-44-47.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-44-47.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-44-48.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-44-48.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-46-40.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-46-40.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-51-08.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-51-08.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-51-09.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-51-09.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-55-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-55-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-20/18-55-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-20/18-55-19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/10-45-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/10-45-04.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/10-46-31.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/10-46-31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/10-46-32.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/10-46-32.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/20-55-17.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/20-55-17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/20-55-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/20-55-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-01-59.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-01-59.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-06-05.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-06-05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-06-06.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-06-06.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-06-30.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-06-30.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-06-31.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-06-31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-08-35.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-08-35.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-08-36.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-08-36.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-16-53.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-16-53.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/21-24-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/21-24-02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-08-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-08-15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-08-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-08-16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-09-05.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-09-05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-12-56.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-12-56.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-13-57.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-13-57.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-14-50.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-14-50.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-14-51.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-14-51.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-17-42.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-17-42.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-18-17.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-18-17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-18-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-18-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-25-54.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-25-54.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/22-26-42.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/22-26-42.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/23-10-38.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/23-10-38.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/23-10-39.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/23-10-39.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/23-11-08.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/23-11-08.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/23-13-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/23-13-10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-11-21/23-13-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-11-21/23-13-11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-12-05/21-03-17.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-12-05/21-03-17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/2018-12-05/21-03-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-12-05/21-03-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/logs/logmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/logmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY/manager/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/manager/handler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +185,11 @@
     <SUITE FILE_PATH="coverage/python_projects$app.coverage" NAME="app Coverage Results" MODIFIED="1544795245581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_App" />
     <SUITE FILE_PATH="coverage/python_projects$Data_read.coverage" NAME="Data_read Coverage Results" MODIFIED="1545657039206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_Sensor_Fetch" />
     <SUITE FILE_PATH="coverage/python_projects$manage.coverage" NAME="manage Coverage Results" MODIFIED="1544867099530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/django_demo" />
-    <SUITE FILE_PATH="coverage/python_projects$elastic.coverage" NAME="elastic Coverage Results" MODIFIED="1545640948326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MODBUS_SDM120" />
+    <SUITE FILE_PATH="coverage/python_projects$elastic.coverage" NAME="elastic Coverage Results" MODIFIED="1545727621827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MODBUS_SDM120" />
     <SUITE FILE_PATH="coverage/python_projects$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1545133968677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/python_projects$main.coverage" NAME="main Coverage Results" MODIFIED="1545658911976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_Sensor_Fetch" />
+    <SUITE FILE_PATH="coverage/python_projects$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1545740168110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC" />
+    <SUITE FILE_PATH="coverage/python_projects$handler.coverage" NAME="handler Coverage Results" MODIFIED="1545729021669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager" />
     <SUITE FILE_PATH="coverage/python_projects$appbase_live_meter_feed.coverage" NAME="appbase_live_meter_feed Coverage Results" MODIFIED="1545133529281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MODBUS_SDM120" />
     <SUITE FILE_PATH="coverage/python_projects$views.coverage" NAME="views Coverage Results" MODIFIED="1545044636425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/First_Django/webapp" />
   </component>
@@ -43,12 +213,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py">
+        <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="121">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/IO_SENSOR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,9 +267,17 @@
         <option value="$PROJECT_DIR$/First_Django/webapp/templates/index.html" />
         <option value="$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py" />
         <option value="$PROJECT_DIR$/SMARTGATEWAY/main.py" />
-        <option value="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" />
         <option value="$PROJECT_DIR$/IO_Sensor_Fetch/main.py" />
         <option value="$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py" />
+        <option value="$PROJECT_DIR$/SMARTGATEWAY/manager/handler.py" />
+        <option value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/configuration/config.py" />
+        <option value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/database/models.py" />
+        <option value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/MODBUS.py" />
+        <option value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/IO_SENSOR.py" />
+        <option value="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" />
+        <option value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/configuration/config.ini" />
+        <option value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager/handler.py" />
+        <option value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/main.py" />
       </list>
     </option>
   </component>
@@ -105,6 +295,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,13 +306,18 @@
             <path>
               <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_projects" type="462c0819:PsiDirectoryNode" />
-              <item name="IO_Sensor_Fetch" type="462c0819:PsiDirectoryNode" />
+              <item name="SMARTGATEWAY_ELASTIC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="SMARTGATEWAY_ELASTIC" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway_Sensors" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,6 +331,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SACHIN RANA\Documents\PythonProjects\python_projects\SMARTGATEWAY_ELASTIC" />
       <recent name="C:\Users\SACHIN RANA\Documents\PythonProjects\python_projects\First_Django\webapp" />
     </key>
   </component>
@@ -150,27 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="Test: " type="DjangoTestsConfigurationType" temporary="true">
-      <module name="First_Django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="Data_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IO_Sensor_Fetch" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,28 +370,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="appbase_live_meter_feed" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MODBUS_SDM120" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="elastic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +384,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SMARTGATEWAY_ELASTIC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager/handler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SMARTGATEWAY_ELASTIC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,11 +484,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.handler" />
+        <item itemvalue="Python.elastic" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.Data_read" />
-        <item itemvalue="Python.elastic" />
-        <item itemvalue="Django tests.Test: " />
-        <item itemvalue="Python.appbase_live_meter_feed" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +520,10 @@
       <workItem from="1545566916343" duration="3590000" />
       <workItem from="1545570902804" duration="8883000" />
       <workItem from="1545630650634" duration="94000" />
-      <workItem from="1545631071138" duration="14190000" />
+      <workItem from="1545631071138" duration="16174000" />
+      <workItem from="1545666427374" duration="37000" />
+      <workItem from="1545721454441" duration="12710000" />
+      <workItem from="1545735281017" duration="2300000" />
     </task>
     <task id="LOCAL-00001" summary="AWS broker get data tester added">
       <created>1544774557745</created>
@@ -351,11 +553,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545583325758</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="IO_Sensor code update">
+      <created>1545662919636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545662919636</updated>
+    </task>
+    <task id="LOCAL-00006" summary="SMARTGATEWAY CODE CHANGE FOR DATABASE SELECT WHEN DEVICE HAS MORE PAYLOAD">
+      <created>1545664869961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545664869961</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67231000" />
+    <option name="totallyTimeSpent" value="84262000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,20 +586,45 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17473525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19967267" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.5613748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.19312602" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.38297874" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.5253683" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.4680851" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.29623568" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.39116204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.38297874" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.39116204" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.4680851" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.29623568" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3289689" />
@@ -393,7 +634,7 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -440,7 +681,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AWS broker get data tester added" />
-    <option name="LAST_COMMIT_MESSAGE" value="AWS broker get data tester added" />
+    <MESSAGE value="IO_Sensor code update" />
+    <MESSAGE value="SMARTGATEWAY CODE CHANGE FOR DATABASE SELECT WHEN DEVICE HAS MORE PAYLOAD" />
+    <option name="LAST_COMMIT_MESSAGE" value="SMARTGATEWAY CODE CHANGE FOR DATABASE SELECT WHEN DEVICE HAS MORE PAYLOAD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -454,21 +697,15 @@
           <line>9</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager/handler.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_django/untitled/settings.py" />
-    <entry file="file://$PROJECT_DIR$/web_django/untitled/urls.py" />
-    <entry file="file://$PROJECT_DIR$/web_django/manage.py" />
-    <entry file="file://$PROJECT_DIR$/django_demo/django_demo/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/django_demo/webapp/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/django_demo/webapp/admin.py" />
-    <entry file="file://$PROJECT_DIR$/django_demo/webapp/apps.py" />
-    <entry file="file://$PROJECT_DIR$/django_demo/webapp/models.py" />
-    <entry file="file://$PROJECT_DIR$/django_demo/django_demo/settings.py" />
-    <entry file="file://$PROJECT_DIR$/django_demo/manage.py" />
-    <entry file="file://$PROJECT_DIR$/django_demo/webapp/urls.py" />
     <entry file="file://$PROJECT_DIR$/django_demo/django_demo/urls.py" />
     <entry file="file://$PROJECT_DIR$/django_demo/webapp/views.py" />
     <entry file="file://$PROJECT_DIR$/First_Django/webapp/fusioncharts.py" />
@@ -542,28 +779,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/configuration/aws_iot_certificates/cloud.pem.crt">
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_AWS/configuration/aws_iot_certificates/cloud.pem.crt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask_App/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding>
-            <element signature="e#19#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/logs/2018-12-05/21-03-18.log">
-      <provider editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_AWS/logs/2018-12-05/21-03-18.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="413">
           <caret line="168" column="25" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="25" />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/configuration/config.py">
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_AWS/configuration/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -572,10 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/database/data.db">
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_AWS/database/data.db">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/database/models.py">
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_AWS/database/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/First_Django/dimaag/handler.py">
@@ -602,16 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/manager/handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,17 +897,7 @@
     <entry file="file://$PROJECT_DIR$/IOT.Device.SmartTrack/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/Gateway_Sensors/MODBUS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY/main.py">
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_AWS/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="22" />
@@ -700,11 +907,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/python3/Lib/runpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3/Lib/site-packages/AWSIoTPythonSDK/MQTTLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="571" column="8" selection-start-line="571" selection-start-column="8" selection-end-line="571" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_AWS/Gateway_Sensors/MODBUS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3/Lib/site-packages/peewee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5385" selection-start-line="5385" selection-end-line="5385" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MODBUS_SDM120/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1533">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_App/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#19#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/configuration/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODBUS_SDM120/modbusHTTP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -720,44 +1015,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MODBUS_SDM120/elastic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#60#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="335" lean-forward="true" selection-start-line="1" selection-start-column="335" selection-end-line="1" selection-end-column="335" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python3/Lib/runpy.py">
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/configuration/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODBUS_SDM120/appbase_live_meter_feed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="117" lean-forward="true" selection-start-line="2" selection-start-column="117" selection-end-line="2" selection-end-column="117" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IO_Sensor_Fetch/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="108" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IO_Sensor_Fetch/Data_read.py">
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_AWS/manager/handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="303">
+          <caret line="112" column="43" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="43" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/database/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/MODBUS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="59" column="40" lean-forward="true" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/IO_SENSOR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
