@@ -28,12 +28,13 @@ class database():
                 pass
 
 
-    def Save_In_DataBase(self,payload,date,time):
+    def Save_In_DataBase(self,payload,date,time,devicetype):
         try:
             self.data.timestamp = time
             self.data.datestamp = date
             self.data.payload = payload
             self.data.id = uuid.uuid4()
+            self.data.devicetype = devicetype
             self.data.deviceid = self.config.DEVICE_ID
             self.data.orgid = self.config.ORG_ID
             self.data.save(force_insert=True)

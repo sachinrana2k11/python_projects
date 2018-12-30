@@ -8,6 +8,7 @@ class devicedata(Model):
     payload = TextField()
     datestamp = TextField()
     timestamp = TextField()
+    devicetype = TextField()
     orgid = TextField()
     synced = IntegerField(default=0)
 

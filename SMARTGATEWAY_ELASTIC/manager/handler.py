@@ -41,8 +41,8 @@ class database():
 
     def update_synced(self, msgid):
         try:
-            print(md.devicedata.id,msgid)
-            query = md.devicedata().id.update(synced=1).where((md.devicedata.id == msgid))
+            #print(md.devicedata.id,msgid)
+            query = md.devicedata.update(synced=1).where((md.devicedata.id == msgid))
             query.execute()
         except:
             e = sys.exc_info()[0]
@@ -52,15 +52,14 @@ class database():
 
     def sync_data(self):
         try:
-            msgid_list=[]
-            records = self.check_data_base()
-            print(records)
+            #records = self.check_data_base()
+            #print(records)
             # if records < 25:
             for data in md.devicedata().select().order_by(md.devicedata.timestamp.asc()).where(md.devicedata.synced == 0).limit(5):
                 try:
                     data_raw = model_to_dict(data)
                     data_to_send = self.get_data_value(data_raw)
-                    #print(data_to_send)
+                    print(data_to_send)
                     ack = self.send_data_elastic(data_to_send)
                     if ack == True:
                         #print("PUBLISHING  DATA TO CLOUD-:" + str(data_to_send))
@@ -81,13 +80,13 @@ class database():
 
     def check_data_base(self):
         record_list= []
-        for data in self.data.select().order_by(md.devicedata.timestamp.asc()).where(self.data.synced == 0):
+        for data in md.devicedata().order_by(md.devicedata.timestamp.asc()).where(md.devicedata.synced == 0):
             record_list.append(data)
         return len(record_list)
 
     def get_data_value(self,data_raw):
         type = data_raw['devicetype']
-        if type == 'MODBUS' or 'IO_SENSOR':
+        if type == 'MODBUS':
             # Array of data objects
             raw_payload = json.loads(data_raw['payload'])
 
@@ -107,8 +106,28 @@ class database():
                 }
                 payload += demjson.encode(type) + "," + "\n" + demjson.encode(data) + "\n"
             return payload
-        if type =='IO_SENSOR':
-            return None
+        elif type == 'IO_SENSOR':
+            # Array of data objects
+            raw_payload = json.loads(data_raw['payload'])
+
+            dataArray = []
+            for i in raw_payload:
+                raw_form = {"Sensorid": data_raw['gatewayid'], "name": i, "value": raw_payload[i], "timestamp": data_raw['timestamp']}
+                dataArray.append(raw_form)
+            payload = ""
+
+            # Creating request body
+            for data in dataArray:
+                # Pushing the operation and _id for each request
+                type = {
+                    "index": {
+                        # "_id": data['id']
+                    }
+                }
+                payload += demjson.encode(type) + "," + "\n" + demjson.encode(data) + "\n"
+            return payload
+
+
 
 
     def send_data_elastic(self,payload):
@@ -120,9 +139,10 @@ class database():
         # Bulk request including the index method and all data objects
         try:
             response = requests.request("POST",self.config.ELASTIC_ADDRESS, data=payload, headers=headers)
-            print(payload)
+            #print(payload)
             parsed = json.loads(response.text)
-            print(json.dumps(parsed, indent=4, sort_keys=True))
+            #print(json.dumps(parsed, indent=4, sort_keys=True))
+            print("data send successfully")
             return True
 
         except:

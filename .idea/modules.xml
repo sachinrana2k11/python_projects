@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Data_Science/.idea/Data_Science.iml" filepath="$PROJECT_DIR$/Data_Science/.idea/Data_Science.iml" />
       <module fileurl="file://$PROJECT_DIR$/First_Django/.idea/First_Django.iml" filepath="$PROJECT_DIR$/First_Django/.idea/First_Django.iml" />
       <module fileurl="file://$PROJECT_DIR$/IO_Sensor_Fetch/.idea/IO_Sensor_Fetch.iml" filepath="$PROJECT_DIR$/IO_Sensor_Fetch/.idea/IO_Sensor_Fetch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/SMARTGATEWAY_ELASTIC.iml" filepath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/SMARTGATEWAY_ELASTIC.iml" />
