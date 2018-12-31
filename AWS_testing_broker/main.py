@@ -3,7 +3,6 @@ import time,json
 def decode_incomming_data(self,params, packet):
         print("received payload is -: ", packet.payload)
         return packet.payload
-
 myMQTTClient = AWSIoTMQTTClient("qwertyuiop123")
 print("Initializing device on aws server")
 myMQTTClient.configureEndpoint("a3muy1lrol528l-ats.iot.us-east-1.amazonaws.com", 8883)

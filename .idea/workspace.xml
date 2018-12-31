@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c786a7-a6d4-481e-9a9d-dc9c670dba8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/SACHIN_RANA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Science/First_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Science/tensor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/Gateway_Sensors/IO_SENSOR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_Django/.idea/First_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/First_Django/.idea/First_Django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO_Sensor_Fetch/.idea/IO_Sensor_Fetch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IO_Sensor_Fetch/.idea/IO_Sensor_Fetch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" beforeDir="false" afterPath="$PROJECT_DIR$/MODBUS_SDM120/elastic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY_AWS/database/data.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY_AWS/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/database/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY_AWS/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY_AWS/manager/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_AWS/manager/handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/SMARTGATEWAY_ELASTIC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/.idea/SMARTGATEWAY_ELASTIC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/IO_SENSOR.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/Gateway_Sensors/IO_SENSOR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager/handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS_testing_broker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/AWS_testing_broker/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pure_python_test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pure_python_test/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,16 +14,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_projects$Unittests_in_AWS_testing_broker.coverage" NAME="Unittests in AWS_testing_broker Coverage Results" MODIFIED="1546175861236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS_testing_broker" />
+    <SUITE FILE_PATH="coverage/python_projects$main.coverage" NAME="main Coverage Results" MODIFIED="1545658911976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_Sensor_Fetch" />
+    <SUITE FILE_PATH="coverage/python_projects$appbase_live_meter_feed.coverage" NAME="appbase_live_meter_feed Coverage Results" MODIFIED="1545133529281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MODBUS_SDM120" />
+    <SUITE FILE_PATH="coverage/python_projects$tensor__1_.coverage" NAME="tensor (1) Coverage Results" MODIFIED="1546177899132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Science" />
     <SUITE FILE_PATH="coverage/python_projects$app.coverage" NAME="app Coverage Results" MODIFIED="1544795245581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_App" />
     <SUITE FILE_PATH="coverage/python_projects$Data_read.coverage" NAME="Data_read Coverage Results" MODIFIED="1545657039206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_Sensor_Fetch" />
-    <SUITE FILE_PATH="coverage/python_projects$Unittests_in_AWS_testing_broker.coverage" NAME="Unittests in AWS_testing_broker Coverage Results" MODIFIED="1546175861236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS_testing_broker" />
+    <SUITE FILE_PATH="coverage/python_projects$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1546177888659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS_testing_broker" />
     <SUITE FILE_PATH="coverage/python_projects$manage.coverage" NAME="manage Coverage Results" MODIFIED="1544867099530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/django_demo" />
     <SUITE FILE_PATH="coverage/python_projects$elastic.coverage" NAME="elastic Coverage Results" MODIFIED="1545727621827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MODBUS_SDM120" />
     <SUITE FILE_PATH="coverage/python_projects$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1545133968677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/python_projects$main.coverage" NAME="main Coverage Results" MODIFIED="1545658911976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO_Sensor_Fetch" />
     <SUITE FILE_PATH="coverage/python_projects$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1545894234230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC" />
     <SUITE FILE_PATH="coverage/python_projects$handler.coverage" NAME="handler Coverage Results" MODIFIED="1545729021669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/manager" />
-    <SUITE FILE_PATH="coverage/python_projects$appbase_live_meter_feed.coverage" NAME="appbase_live_meter_feed Coverage Results" MODIFIED="1545133529281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MODBUS_SDM120" />
     <SUITE FILE_PATH="coverage/python_projects$views.coverage" NAME="views Coverage Results" MODIFIED="1545044636425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/First_Django/webapp" />
     <SUITE FILE_PATH="coverage/python_projects$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1545891802728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SMARTGATEWAY_AWS" />
   </component>
@@ -65,14 +50,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AWS_testing_broker/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="187">
+              <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Science/tensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -133,8 +127,16 @@
         <option value="$PROJECT_DIR$/SMARTGATEWAY_ELASTIC/main.py" />
         <option value="$PROJECT_DIR$/Data_Science/First_test.py" />
         <option value="$PROJECT_DIR$/Data_Science/tensor.py" />
+        <option value="$PROJECT_DIR$/AWS_testing_broker/main.py" />
+        <option value="$PROJECT_DIR$/pure_python_test/main.py" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-48" />
@@ -157,6 +159,11 @@
               <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_projects" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_projects" type="462c0819:PsiDirectoryNode" />
+              <item name="pure_python_test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,14 +178,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.25149104" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="SMARTGATEWAY_ELASTIC" is-module-sdk="true">
+      <console-settings custom-start-script="&#10;" module-name="python_projects" is-module-sdk="true">
+        <option name="myCustomStartScript" value="&#10;" />
         <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="SMARTGATEWAY_ELASTIC" />
+        <option name="myModuleName" value="python_projects" />
       </console-settings>
     </option>
   </component>
@@ -201,55 +210,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (3)">
-    <configuration name="First_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data_Science" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Science" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/First_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="IO_Sensor_Fetch" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.tensor (1)">
     <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AWS_testing_broker" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -258,8 +226,8 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AWS_testing_broker/main.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -280,14 +248,14 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IO_Sensor_Fetch/main.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tensor (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,8 +270,30 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Science/tensor.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tensor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -348,13 +338,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.tensor (1)" />
+      <item itemvalue="Python.tensor" />
+      <item itemvalue="Django server.First_Django" />
+      <item itemvalue="Python tests.Unittests in AWS_testing_broker" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tensor (1)" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python tests.Unittests in AWS_testing_broker" />
         <item itemvalue="Python.tensor" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.First_test" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +396,10 @@
       <workItem from="1546002851691" duration="1035000" />
       <workItem from="1546170819929" duration="1904000" />
       <workItem from="1546175324089" duration="774000" />
-      <workItem from="1546176290586" duration="590000" />
+      <workItem from="1546176290586" duration="838000" />
+      <workItem from="1546177338739" duration="173000" />
+      <workItem from="1546177538407" duration="385000" />
+      <workItem from="1546190297858" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="AWS broker get data tester added">
       <created>1544774557745</created>
@@ -442,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545664869961</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SMARTGATEWAY CODE CHANGE FOR DATABASE SELECT WHEN DEVICE HAS MORE PAYLOAD">
+      <created>1546176901187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546176901187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -451,7 +459,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103785000" />
+    <option name="totallyTimeSpent" value="105200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +473,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -482,8 +490,6 @@
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.4680851" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.29623568" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.63666123" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,6 +497,8 @@
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
       <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="6" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="R Graphics" order="7" />
+      <window_info anchor="right" id="R Packages" order="8" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
@@ -583,7 +591,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1189980555/time.py" />
     <entry file="file://$PROJECT_DIR$/First_Django/First_Django/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -951,22 +958,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Science/tensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AWS_testing_broker/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="187">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pure_python_test/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Science/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
