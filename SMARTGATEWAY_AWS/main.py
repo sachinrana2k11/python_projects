@@ -48,9 +48,9 @@ def get_datetime():
 if __name__ == '__main__':
     p1 = multiprocessing.Process(target=sync_data) # 1st process
     p2 = multiprocessing.Process(target=feed_data_database) # 2nd process
-   # p3 = multiprocessing.Process(target=get_data_io_sensor) # 2nd process
+    p3 = multiprocessing.Process(target=get_data_io_sensor) # 2nd process
     p1.start()
     p2.start()
-   # p3.start()
+    p3.start()
 
 
