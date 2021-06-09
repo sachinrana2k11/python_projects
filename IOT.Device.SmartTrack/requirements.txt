@@ -20,7 +20,7 @@ msrest==0.4.11
 msrestazure==0.4.11
 oauthlib==2.0.2
 peewee==2.10.1
-pip==9.0.1
+pip==19.2
 pycparser==2.18
 PyJWT==1.5.2
 python-dateutil==2.6.1
